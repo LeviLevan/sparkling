@@ -1,0 +1,3920 @@
+.container-fluid.banner_section {
+    padding-top: 70px;
+    margin-bottom: 50px;
+    @media(max-width: 768px){
+        padding-top: 127px;
+    }
+    @media(max-width: 766px){
+        padding-top: 24px;
+    }
+    @media(max-width:320px){
+        padding-top: 10px;
+    }
+    .container {
+    max-width: 1400px;
+    border-radius: 20px;
+    padding: 40px 115px 20px 125px;
+    background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/uploads/2023/08/Mainbanner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+        .row{
+        display:flex;
+            .col-xs-12.col-md-6 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h1 {
+                    color: #FFF;
+                    font-family: Nunito;
+                    font-size: 44px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 54px;
+                    @media(max-width: 768px){
+                        font-size: 40px;
+                        text-align: center;
+                        line-height: 48px;
+                    }
+                }
+                a {
+                    margin-top: 35px;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 60px;
+                    text-transform: uppercase;
+                    border-radius: 100px;
+                    background: #FEB931;
+                    max-width: 260px;
+                    min-width: 260px;
+                    height: 60px;
+                    @media(max-width: 768px){
+                        margin-top: 10px;
+                    }
+                }
+                 @media(max-width: 768px){
+                     align-items: center;
+                }
+            }
+            img{
+
+            }
+            @media(max-width: 767px){
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        @media(max-width: 768px){
+            padding: 20px;
+        }
+    }
+}
+.container-fluid.reasons_section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .container{
+        .row{
+            .block-title{
+                text-align: center;
+                h2{
+                    padding: 0 15px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px; /* 122.222% */
+                }
+                hr.title-hr {
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                    width: 55px;
+                    height: 4px;
+                    background: #A3C4D5;
+                }
+            }
+            .description p{
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+            }
+        }
+    }
+}
+.how_it_works_section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px 0 50px 0;
+    max-width: 1400px;
+    border-radius: 20px;
+    background: #F9FAFB;
+    .container{
+        .row{
+            h2 {
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                margin-bottom: 40px;
+            }
+            .block-grid-how-it{
+                min-height: 324px;
+                display: flex;
+                flex-direction: column;
+                img {
+                    max-width: 50px;
+                }
+                span.title-hitw{
+                    padding: 14px 0 8px 0;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px; /* 125% */
+                }
+                span.description {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; /* 150% */
+                }
+                a {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 60px;
+                    text-transform: uppercase;
+                    border-radius: 100px;
+                    background: #FEB931;
+                    max-width: 260px;
+                    min-width: 260px;
+                    height: 60px;
+                }
+            }
+            .work-1{
+                padding-top: 33px;
+                border-top: 2px solid #C1CFDD;
+                position: relative;
+                .block-info-button {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                } 
+                a {
+                    position: absolute;
+                    bottom: -30px;
+                }
+                &::before {
+                    content: "";
+                    background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/min-circle-1.svg);
+                    position: absolute;
+                    width: 38px;
+                    height: 38px;
+                    top: -21px;
+                }
+            }
+            .work-2{
+                padding-top: 33px;
+                border-top: 2px solid #C1CFDD;
+                border-right: 2px solid #C1CFDD;
+                border-bottom: 2px solid #C1CFDD;
+                &::before {
+                    content: "";
+                    background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/min-circle-2.svg);
+                    position: absolute;
+                    width: 38px;
+                    height: 38px;
+                    top: -21px;
+                }
+                &::after {
+                    content: "";
+                    background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/min-circle-3.svg);
+                    position: absolute;
+                    width: 38px;
+                    height: 38px;
+                    top: -21px;
+                    right: -20px;
+                }
+            }
+            .work-5{
+                padding-top: 33px;
+                &::before {
+                    content: "";
+                    background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/min-circle-4.svg);
+                    position: absolute;
+                    width: 38px;
+                    height: 38px;
+                    top: -21px;
+                    left: 20px;
+                }
+               /* &::after {
+                    */content: "<";
+                    /* background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/min-circle-4.svg); */
+                   /* position: absolute;
+                    font-size: 28px;
+                    top: -23px;
+                    left: -5px;
+                    color: #C1CFDD;
+                }*/
+            }
+            .work-6{
+                padding-top: 33px;
+                &::before {
+                    content: "";
+                    background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/min-circle-5.svg);
+                    position: absolute;
+                    width: 38px;
+                    height: 38px;
+                    top: -21px;
+                    left: 20px;
+                }
+            }
+        }
+    }
+}
+@media(min-width:1024px) and (max-width:1199px){
+    .how_it_works_section{
+        .container{
+            .row{
+                .block-grid-how-it{
+                    min-height: 405px;
+                }
+            }
+        }
+    }
+}
+@media(min-width:768px) and (max-width:1023px){
+    .how_it_works_section{
+        .container{
+            .row{
+                .block-grid-how-it{
+                    min-height: 600px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:767px){
+    .how_it_works_section{
+        .container{
+            .row{
+                .block-grid-how-it{
+                    margin-bottom: 0;
+                    min-height:100%;
+                    align-items: center;
+                    span.description {
+                        text-align: center;
+                    }
+                }
+                .work-1,.work-2,.work-5,.work-6{
+                    border:none;
+                    &::before {
+                        display: none;
+                    }
+                    &::after {
+                        display: none;
+                    }
+                }
+                .work-1{
+                    .block-info-button {
+                        align-items: center;
+                    }
+                    a {
+                        bottom: -10px;
+                        display: block;
+                        position: relative;
+                    }
+                }
+                .work-3{
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.cvs_slider_section {
+    padding: 50px 0 50px 0;
+    .container{
+        .row{
+            h2 {
+                padding: 0 15px;
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+            }
+            .resumes-slider.slick-slider{
+                .slick-arrow.slick-next {
+                    right: 0
+                }
+                .slick-arrow.slick-prev {
+                    left: 0;
+                }
+                .resume-item{
+                    padding: 20px 0;
+                    .resume-slide{
+                        padding: 20px;
+                        border-radius: 20.079px;
+                        background: #FFF;
+                        box-shadow: 0px 2.6771514415740967px 20.078636169433594px 0px rgb(47 65 85 / 10%);
+                        .resume-item-img {
+                            img {
+                                height: 100%;
+                                max-width: 100%;
+                            }
+                        }
+                        a.btn.btn-sec.btn-ico.resume-link {
+                            position: absolute;
+                            top: 45%;
+                            left: 0;
+                            right: 0;
+                            background-color: transparent;
+                        }
+                        .resume-item-footer{
+                            .resume-item-title {
+                                color: #47A0D3;
+                                text-align: center;
+                                font-family: Nunito;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 20px;
+                                text-transform: capitalize;
+                            }
+                            .second_title {
+                                color: #646E78;
+                                font-family: Nunito;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    div#resumeModal{
+        .modal-dialog.modal-dialog-centered{
+            .modal-content {
+                padding: 0 64px 30px 64px;
+                .modal-body {
+                    img{
+                        width: 100%;
+                        height: auto
+                    }
+                }
+            }
+        }
+    }
+}
+.container-fluid.solutions_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {
+                padding: 0 15px;
+                color: #2F4155;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                text-align: center;
+            }
+            span.description {
+                margin-bottom: 30px;
+                color: #646E78;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 16px;
+                padding: 0 15px;
+            }
+            .block-1,.block-2,.block-3,.block-4,.block-5{
+                    border-radius: 20px;
+                    background: #F9FAFB;
+                    padding: 30px 50px 40px 30px;
+                    min-height: 255px;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+                h4 {
+                    color: #FEB931;
+                    font-family: Nunito;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 1.12px;
+                    text-transform: uppercase;
+                }
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+        .row{
+            .col-xs-12.col-md-12 {
+                margin-top: 30px;
+            }
+            .col-xs-12.col-md-6 {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+.container-fluid.requirements_section{
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {padding: 0 15px;
+                color: #2F4155;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                text-align: center;
+                padding-bottom: 28px;
+            }
+            .requirements_block {
+                border-radius: 15px;
+                border: 4px solid #EFF9DF;
+                background: #FFF;
+                padding: 30px;
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 15px;
+                }
+                .description {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 33px;
+                    li{
+                        padding-left: 38px;
+                        position: relative;
+                    }
+                        li::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                        }
+                }
+                @media(max-width:768px){
+                    padding:15px;
+                    margin: 15px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.explore_mobilunity_section{
+    padding:50px 0;
+    .container{
+        .row{
+            h2{ padding: 0 15px;
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                margin-bottom: 27px;
+            }
+            .explore_mobilunity_block_1{
+                border-radius: 13.821px;
+                background: #FFF;
+                box-shadow: 0px 1.8428339958190918px 13.82125473022461px 0px rgba(47, 65, 85, 0.10);
+               .img-block {
+                    padding-top: 35px;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 17px;
+                    img.img-fluid {
+                        max-width: 86px;
+                        height: auto;
+                    }
+                }
+                .title-block{
+                    margin-bottom: 24px;
+                    background: rgba(131, 187, 38, 0.2);
+                    min-height: 66px;
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    h4{
+                        text-align: center;
+                        color: #2F4155;
+                        text-align: center;
+                        font-family: Nunito;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px;
+                    }
+                }
+                p {
+                    min-height: 155px;
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                    padding: 24px 15px 35px 15px;
+                }
+                .link-box{
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 45px;
+                    a{
+                        border-radius: 32px;
+                        border: 1px solid #83BB26;
+                        color: #83BB26;
+                        text-align: center;
+                        font-family: Nunito;
+                        font-size: 14px;
+                        font-style: normal;
+                        display: block;
+                        font-weight: 900;
+                        line-height: 10px;
+                        text-transform: uppercase;
+                        padding: 17px 30px;
+                        max-width: 190px;
+                    }
+                }
+            }
+            .explore_mobilunity_block_2{
+                border-radius: 13.821px;
+                background: #FFF;
+                box-shadow: 0px 1.8428339958190918px 13.82125473022461px 0px rgba(47, 65, 85, 0.10);
+                .img-block {
+                    padding-top: 35px;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 17px;
+                    img.img-fluid {
+                        max-width: 86px;
+                        height: auto;
+                    }
+                }
+                .title-block{
+                    background: rgba(254, 185, 49, 0.2);
+                    min-height: 66px;
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 24px;
+                    h4{
+                        text-align: center;
+                        color: #2F4155;
+                        text-align: center;
+                        font-family: Nunito;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px;
+                    }
+                }
+                p {
+                    min-height: 155px;
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                    padding: 24px 15px 35px 15px;
+                }
+                .link-box{
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 45px;
+                    a{  border-radius: 32px;
+                        border: 1px solid #FEB931;
+                        color: #FEB931;
+                        text-align: center;
+                        font-family: Nunito;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 10px; /* 71.429% */
+                        text-transform: uppercase;
+                        padding: 17px 30px;
+                        max-width: 190px;
+                        display: block;
+                    }
+                }
+            }
+            .explore_mobilunity_block_3{
+                border-radius: 13.821px;
+                background: #FFF;
+                box-shadow: 0px 1.8428339958190918px 13.82125473022461px 0px rgba(47, 65, 85, 0.10);
+                .img-block {
+                    padding-top: 35px;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 17px;
+                    img.img-fluid {
+                        max-width: 86px;
+                        height: auto;
+                    }
+                }
+                .title-block{
+                    background: rgba(0, 174, 255, 0.2);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 66px;
+                    padding: 10px;
+                    margin-bottom: 24px;
+                    h4{
+                        text-align: center;
+                        color: #2F4155;
+                        text-align: center;
+                        font-family: Nunito;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px;
+                    }
+                }
+                p { min-height: 155px;
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                    padding: 24px 15px 35px 15px;
+                }
+                .link-box{
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 45px;
+                    a{  border-radius: 32px;
+                        display: block;
+                        border: 1px solid #00AEFF;
+                        color: #00AEFF;
+                        text-align: center;
+                        font-family: Nunito;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 10px; /* 71.429% */
+                        text-transform: uppercase;
+                        padding: 17px 30px;
+                        max-width: 190px;
+                    }
+                }
+            }
+            @media(max-width:768px){
+                .explore_mobilunity_block_2,.explore_mobilunity_block_3{
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.how_dynamics_your_business_section{
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                padding: 0 15px 26px 15px;
+            }
+            .how_dynamics_your_business_block {
+                border-radius: 13.821px;
+                background: #F9FAFB;
+                height: 160px;
+                max-width: 780px;
+                padding: 20px;
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+            }
+            .icons-box {
+                margin-top: -95px;
+                padding-bottom: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                .icon-box {
+                    margin: 15px;
+                    border-radius: 5px;
+                    background: #FFF;
+                    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 7%);
+                    max-width: 205px;
+                    padding: 15px;
+                    p {
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 19px;
+                    }
+                    img {
+                        margin-bottom: 8px;
+                    }
+                }
+                @media(max-width:768px){
+                    margin-top: -60px;
+                    .icon-box {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+            span{
+                p {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+            @media(max-width:768px){
+                span p {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.currently_available_section {
+    background: transparent url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/avalible.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 50px 0;
+    .container{
+        .row{
+            .currently-available-block {
+                max-width: 1170px;
+                margin: 0 auto;
+                border-radius: 15px;
+                padding: 15px;
+                .block-title{
+                    h2{
+                        color: #2F4155;
+                        text-align: center;
+                        font-family: Nunito;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 44px; /* 122.222% */
+                    }
+                    hr.title-hr {
+                        margin-top: 16px;
+                        margin-bottom: 16px;
+                        width: 55px;
+                        height: 4px;
+                        background: #A3C4D5;
+                    }
+                }
+                .button-block{
+                    text-align: center;
+                    a{
+                        margin-top: 35px;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Nunito;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 60px;
+                        text-transform: uppercase;
+                        border-radius: 100px;
+                        background: #FEB931;
+                        max-width: 260px;
+                        min-width: 260px;
+                        height: 60px;
+                        padding: 20px 55px;
+                    }
+                }
+                p {
+                    color: #2F4155;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 44px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.requirements_developer_section{
+    padding: 50px 0;
+    .container{
+        .row{
+            h2{ margin-bottom: 50px;
+                padding: 0 15px;
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+            }
+            .requirements_block{
+                hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 0 0 5px 0;
+                }
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+                .description {
+                    margin-top: 40px;
+                    ul.visible-items{
+                        li{
+                            padding-left: 38px;
+                            position: relative;
+                            color: #2F4155;
+                            font-family: Nunito;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 33px;
+                            &::before{
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                left: 0;
+                                top: 6px;
+                                width: 20px;
+                                height: 20px;
+                                background-position: 0 0;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                            }
+                        }
+                    }
+                }
+            }
+            a.button{  border-radius: 100px;
+                border: 2px solid #FEB931;
+                padding: 19px 56px;
+                color: #FEB931;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 18px; /* 71.429% */
+                text-transform: uppercase;
+                    margin-top: 20px;
+            }
+            .resumes-slider.slider-1-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h5 {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+                .resume-item{
+                    padding: 0;
+                    margin-top: -20px;
+                    .resume-slide{
+                        padding: 20px;
+                        border-radius: 20.079px;
+                        background: #FFF;
+                        box-shadow: 0px 2.6771514415740967px 20.078636169433594px 0px rgb(47 65 85 / 10%);
+                        .resume-item-img {
+                            img {
+                                height: 100%;
+                                max-width: 100%;
+                            }  
+                        }
+                        a.btn.btn-sec.btn-ico.resume-link {
+                            position: absolute;
+                            top: 45%;
+                            left: 0;
+                            right: 0;
+                            background-color: transparent;
+                        }
+                    }
+                }
+                @media(max-width:768px){
+                    margin-top: 20px;
+                    .resume-item{
+                        .resume-slide{
+                        
+                        }
+                    }  
+                }
+            }
+        }
+    }
+}
+.container-fluid.how_transform_your_business_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {padding:0 15px;
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                margin-bottom: 25px;
+            }
+            hr.title-hr {
+                border-radius: 100px;
+                background: #A3C4D5;
+                width: 55px;
+                height: 4px;
+                margin: 0 0 26px 0;
+            }
+            span p {
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+            .how_transform_your_business_block {
+                .description{
+                    padding: 28px;
+                    border-radius: 15px;
+                    border: 4px solid #EFF9DF;
+                    background: #FFF;
+                    ul.visible-items{
+                        li {padding-left: 38px;
+                            position: relative;
+                            color: #2F4155;
+                            font-family: Nunito;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 33px;
+                            &::before {
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                left: 0;
+                                top: 6px;
+                                width: 20px;
+                                height: 20px;
+                                background-position: 0 0;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                            }
+                        }
+                    }
+                }
+                @media(max-width:768px){
+                    padding-bottom: 26px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.salary_comparison_section{
+    padding: 50px 0;
+    .container{
+        .row{
+            h2{
+                padding: 0 15px;
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px; /* 122.222% */
+            }
+            hr.title-hr {
+                border-radius: 100px;
+                background: #A3C4D5;
+                width: 55px;
+                height: 4px;
+            }
+            span p {
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                @media(max-width: 768px){
+                    padding: 0 15px;
+                }
+            }
+            .table-container {
+                margin: 32px 0;
+                table {
+                    width: 100%;
+                    thead {
+                        border-top-right-radius: 20px;
+                        background: #186C97;
+                        tr {
+                            th{ padding: 13px 24px;
+                                color: #FFF;
+                                font-family: Nunito;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px; /* 150% */
+                                letter-spacing: 0.48px;
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                            border-bottom: 1px solid #D5D9DC;
+                            td:nth-child(1){
+                                background: #E9F1F4;
+                                padding: 16px 30px;
+                                color: #2F4155;
+                                font-family: Nunito;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 24px; /* 120% */
+                            }
+                            td:nth-child(2n) {
+                                padding: 16px 24px;
+                                color: #646E78;
+                                font-family: Nunito;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 24px;
+                            }
+                        }
+                        tr:nth-last-child(-n + 1){
+                            border-bottom:none;
+                        }
+                    }
+                }
+                @media(max-width:768px){
+                    max-width: 800px;
+                    width: 100%;
+                    overflow: auto;
+                }
+            }
+        }
+    }
+}
+.container-fluid.why_choose_us_section_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            .block-title{
+                text-align: center;
+                h2{
+                    padding: 0 15px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px; /* 122.222% */
+                }
+                hr.title-hr {
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                    width: 55px;
+                    height: 4px;
+                    background: #A3C4D5;
+                }
+            }
+            .description p{
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; 
+                @media(max-width: 768px){
+                    padding: 0 15px;
+                }
+            }
+        }
+         .row{
+            .requirements_block {
+                margin-top: 48px;
+                border-radius: 15px;
+                border: 4px solid #EFF9DF;
+                background: #FFF;
+                padding: 30px;
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 15px;
+                }
+                .description {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 33px;
+                    li{
+                        padding-left: 38px;
+                        position: relative;
+                    }
+                        li::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                        }
+                }
+                @media(max-width:768px){
+                    padding:15px;
+                    margin: 15px;
+                }
+            }
+        }
+        .row{
+            .benefit-block-all {
+                margin-top: 48px;
+            }
+            .col-xs-12.col-md-4 {
+                padding: 0;
+            }
+            .benefit-block {
+                border-radius: 15px;
+                border: 4px solid #FBF5D8;
+                background: #FFF;
+                padding: 35px 28px;
+                ul.visible-items{
+                    margin-top: 21px;
+                    li {
+                        padding-left: 38px;
+                        position: relative;
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px; /* 206.25% */
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check-orange.svg);
+                        }
+                    }
+                }
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px; /* 120% */
+                }
+            }
+            .workflow-block {
+                border-radius: 15px;
+                border: 4px solid #FBF5D8;
+                background: #FFF;
+                padding: 35px 28px;
+                ul.visible-items{
+                    margin-top: 21px;
+                    li {
+                        padding-left: 38px;
+                        position: relative;
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px; /* 206.25% */
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check-blue.svg);
+                        }
+                    }
+                }
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px; /* 120% */
+                }
+            }
+        }
+    }
+}
+.container-fluid.contact_form_7_section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #186C97 url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/hiredynamicdeveloper/form-bg.webp) no-repeat 0 0/100% auto;
+    border-radius: 20px;
+    padding: 100px 0;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    .container{
+        .row{
+            .h1.section-title.title-contacts.wow.fadeIn {
+                color: #fff;
+                margin-bottom: 23px;
+            }
+            .block-shortcode-cf7{
+                max-width: 870px;
+                margin: 0 auto;
+                .wpcf7-response-output {
+                    color: #fff;
+                }
+            }
+            @media(max-width:767px){
+                span.wpcf7-form-control.wpcf7-radio.needs-radio {
+                    flex-direction: column;
+                }
+                .file__notice {
+                    line-height: 16px !important;
+                }
+            }
+        }
+    }
+}
+.container-fluid.development_services_section {
+    padding: 50px 0;
+    .container{
+        .row-section{
+            h2{
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px; /* 122.222% */
+                padding: 0 15px;
+                margin-bottom: 16px;
+            }
+            span.description {
+                p{
+                    color: #646E78;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: center;
+                    padding: 0 15px;
+                    margin-bottom: 36px;
+                }
+            }
+            .col-xs-12.col-md-6 {
+                margin-bottom: 30px;
+            }
+            .block-1 {
+                min-height: 228px;
+                border-radius: 20px;
+                background: #F9FAFB;
+                padding: 28px 33px;
+                h4 {
+                    margin-bottom: 18px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+                span{
+                    p {
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+.container-fluid.how_we_onboard_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            .block-title {
+                h2{
+                    color: #2F4155;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px; /* 122.222% */
+                    padding: 0 15px;
+                    text-align: center;
+                }
+                hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            }
+            span.description {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; /* 150% */
+                }
+            .row-class {
+                padding-top: 36px;
+            }
+            .block-1 {
+                border-radius: 20px;
+                background: #F9FAFB;
+                padding: 24px 32px;
+                margin-bottom: 14px;
+                display: flex;
+                align-items:self-start;
+                .info-block {
+                    h4 {
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px; /* 120% */
+                        margin-bottom: 18px;
+                    }
+                    span {
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                @media(max-width:768px){
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .info-block {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        h4 {
+                            text-align: center;
+                        }
+                        span{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .section-when-clients-outsource {
+                .block-secription {
+                    margin-top: 48px;
+                }
+                span.description {
+                    p{  margin-bottom: 26px;
+                        color: #2F4155;
+                        text-align: center;
+                        font-family: Nunito;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px; /* 120% */
+                        padding: 0 15px;
+                    }   
+                }
+            }
+        }
+    }
+}
+.container-fluid.professionals_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {
+                padding: 0 15px;
+                color: #2F4155;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                text-align: center;
+            }
+             hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span.description {
+                margin-bottom: 30px;
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 16px;
+                padding: 0 15px;
+            }
+            .block-1,.block-2,.block-3,.block-4,.block-5{
+                    border-radius: 20px;
+                    background: #F9FAFB;
+                    padding: 30px 50px 40px 30px;
+                    min-height: 190px;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+                h4 {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px; /* 120% */
+                    margin-bottom: 18px;
+                }
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+        .row{
+            .col-xs-12.col-md-12 {
+                margin-top: 30px;
+            }
+            .col-xs-12.col-md-6 {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+.hiring_freelance_section {
+    padding: 50px 0;
+    .container{
+        .row-section{
+            h2{
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px; /* 122.222% */
+                padding: 0 15px;
+                margin-bottom: 16px;
+            }
+            hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span.description {
+                p{
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding: 0 15px;
+                    margin-bottom: 36px;
+                }
+            }
+            span.description_2 {
+                p{
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding: 0 15px;
+                    margin-bottom: 36px;
+                }
+            }
+            .col-xs-12.col-md-6 {
+                margin-bottom: 30px;
+            }
+            .block-1 {
+                display: flex;
+                align-items: flex-start;
+                padding:15px;
+                .info-box {
+                    margin-left: 29px;
+                }
+                h4 {
+                    margin-bottom: 18px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+                span{
+                    p {
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+.container-fluid.outsourcing_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {
+                padding: 0 15px;
+                color: #2F4155;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                text-align: center;
+            }
+             hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span.description {
+                margin-bottom: 30px;
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 16px;
+                padding: 0 15px;
+            }
+            .block-1,.block-2,.block-3,.block-4,.block-5{
+                    border-radius: 13.821px;
+                    background: #FFF;
+                    box-shadow: 0px 1.8428339958190918px 13.82125473022461px 0px rgba(47, 65, 85, 0.10);
+                    padding: 28px 38px 28px 28px;
+                    min-height: 190px;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+                h4 {display: inline-block;
+                    padding: 10px 20px 10px 28px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px; /* 120% */
+                    margin-bottom: 18px;
+                }
+                span {
+                        display: block;
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+                         .block-1.back-1{
+                h4 {
+                    background: #E8F4D3;
+                    margin-left: -28px;
+                }
+            }
+            .block-1.back-2{
+                h4 {
+                    background: #FBF5D8;
+                    margin-left: -28px;
+                }
+            }
+            .block-1.back-3{
+                h4 {
+                    background: #DCF3FF;
+                    margin-left: -28px;
+                }
+            }
+            .block-1.back-4{
+                h4 {
+                    background: #F4EEFB;
+                    margin-left: -28px;
+                }
+            }
+            .block-1.back-5{
+                h4 {
+                    background: #FCEDED;
+                    margin-left: -28px;
+                }
+            }
+
+        }
+        .row{
+            .col-xs-12.col-md-12 {
+                margin-top: 30px;
+            }
+            .col-xs-12.col-md-6 {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+.container-fluid.services_can_offer_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {padding:0 15px;
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                margin-bottom: 25px;
+            }
+            hr.title-hr {
+                border-radius: 100px;
+                background: #A3C4D5;
+                width: 55px;
+                height: 4px;
+                margin: 0 0 26px 0;
+            }
+            span p {
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+            .services_can_offer_block {
+                .description{
+                    padding: 28px;
+                    border-radius: 15px;
+                    border: 4px solid #EFF9DF;
+                    background: #FFF;
+                    ul.visible-items{
+                        li {padding-left: 38px;
+                            position: relative;
+                            color: #2F4155;
+                            font-family: Nunito;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 33px;
+                            &::before {
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                left: 0;
+                                top: 6px;
+                                width: 20px;
+                                height: 20px;
+                                background-position: 0 0;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                            }
+                        }
+                    }
+                }
+                @media(max-width:768px){
+                    padding-bottom: 26px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.setting_up_services_team_section{
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {padding: 0 15px;
+                color: #2F4155;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                text-align: center;
+                padding-bottom: 28px;
+            }
+           .setting_up_services_team_block_first_block {
+                border-radius: 20px;
+                background: #F9FAFB;
+                padding: 25px 32px;
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                }
+                span.description_first p{
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-top: 16px;
+                }
+            }
+            .setting_up_services_team_block {
+                margin-top: 30px;
+                border-radius: 20px;
+                background: #F9FAFB;
+                padding: 25px 32px;
+                span {
+                    p{  color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px; /* 120% */;
+                        margin-bottom: 15px;
+                    }
+                }
+                span.description_mini {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+                .description-listing{
+                    margin-top: 8px;
+                    li{
+                        padding-left: 38px;
+                        position: relative;
+                        color: #6E7A88;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px; /* 206.25% */
+                        span.color-green {
+                            color: #83BB26;
+                        }
+                    }
+                        li::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                        }
+                }
+            }
+            @media(max-width:768px){
+                    .setting_up_services_team_block {
+                        padding:15px;
+                        margin: 15px
+                    }
+                    .setting_up_services_team_block_first_block {
+                        padding:15px;
+                        margin: 15px;
+                    }
+                }
+        }
+    }
+}
+.container-fluid.our_top_values_section{
+    padding: 50px 0 10px 0;
+    .container{
+        .row{
+            h2 {
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                padding: 0 15px 26px 15px;
+            }
+            .our_top_values_block {
+                border-radius: 13.821px;
+                background: #F9FAFB;
+                height: 160px;
+                max-width: 780px;
+                padding: 20px;
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+            }
+            .icons-box {
+                margin-top: -63px;
+                padding-bottom: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                .icon-box {
+                    //flex-basis: calc(20% - 30px);
+                    margin: 15px;
+                    border-radius: 5px;
+                    background: #FFF;
+                    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 7%);
+                    max-width: 349px;
+                    padding: 28px;
+                    p {
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 19px;
+                    }
+                }
+                @media(max-width:768px){
+                    margin-top: -20px;
+                    .icon-box {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+            span{
+                p {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+            @media(max-width:768px){
+                span p {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.how_we_hire_great_section{
+    padding: 50px 0 50px 0;
+    .container{
+        .row{
+            h2 {
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                padding: 0 15px;
+            }
+            hr.title-hr {
+                margin-top: 16px;
+                margin-bottom: 16px;
+                width: 55px;
+                height: 4px;
+                background: #A3C4D5;
+            }
+            .how_we_hire_great_block {
+                text-align: center;
+                span {
+                    color: #646E78;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding: 0 15px;
+                }
+            }
+            .icons-box {
+                margin-top: 35px;
+                display: flex;
+                flex-wrap: wrap;
+                .icon-box {
+                    margin: 15px;
+                    border-radius: 20px;
+                    background: #F9FAFB;
+                    max-width: 349px;
+                    padding: 33px;
+                    img {
+                        margin-left: -15px;
+                    }
+                    p {
+                       color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                @media(max-width:768px){
+                    .icon-box {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+            span{
+                p {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+            @media(max-width:768px){
+                span p {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.navision_engineer_resume_sample_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            display: flex;
+            align-items: center;
+            .navision_engineer_resume_sample_block{
+                hr.title-hr {
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                    margin-left:0;
+                    width: 55px;
+                    height: 4px;
+                    background: #A3C4D5;
+                }
+                h2{
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px; /* 122.222% */
+                }
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+            .image-box {
+                border-radius: 20.079px;
+                background: #FFF;
+                box-shadow: 0px 2.67715px 20.07864px 0px rgb(47 65 85 / 10%);
+                padding: 37px;
+            }
+            @media(max-width:768px){
+                flex-direction:column;
+                .image-box {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+.five_reasons_section {
+    padding: 50px 0;
+    .container{
+        .row-section{
+            h2{
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px; /* 122.222% */
+                padding: 0 15px;
+                margin-bottom: 16px;
+            }
+            hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span.description {
+                p{
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding: 0 15px;
+                    margin-bottom: 36px;
+                }
+            }
+            span.description_2 {
+                p{
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding: 0 15px;
+                    margin-bottom: 36px;
+                }
+            }
+            .block-1 {
+                border-radius: 20px;
+                background: #F9FAFB;
+                padding: 33px;
+                display: flex;
+                align-items: flex-start;
+                min-height: 238px;
+                h4 {
+                    margin-bottom: 18px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+                span{
+                    p {
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .row{
+                margin-top: 30px;
+            }
+            @media(max-width:768px){
+                .six-block{
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.dynamics_nav_consultant_section{
+    padding: 50px 0;
+    .container{
+        .row{
+            display: flex;
+            align-items: center;
+            h2{
+                color: #2F4155;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px; /* 122.222% */
+            }
+            hr.title-hr {
+                border-radius: 100px;
+                background: #A3C4D5;
+                width: 55px;
+                height: 4px;
+                margin: 16px 16px 16px 0;
+            }
+            span p {
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+            .table-container {
+                p {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+                border-radius: 20.079px;
+                background: #FFF;
+                box-shadow: 0px 2.67715px 20.07864px 0px rgb(47 65 85 / 10%);
+                padding: 28px 28px 28px 34px;
+                table {
+                    width: 100%;
+                    tbody{
+                        tr{
+                            border-bottom: 1px solid #D5D9DC;
+                            td:nth-child(1){
+                                background: #E9F1F4;
+                                    padding: 14px 10px;
+                                olor: #2F4155;
+                                font-family: Nunito;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 24px; /* 120% */
+                            }
+                            td:nth-child(2n) {
+                                background: #E9F1F4;
+                                    padding: 14px 10px;
+                                color: #2F4155;
+                                font-family: Nunito;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 24px; /* 120% */
+                                text-align: right;
+                                span.fontweight {
+                                    color: #2F4155;
+                                    font-family: Nunito;
+                                    font-size: 20px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 24px;
+                                }
+                            }
+                        }
+                        tr:nth-last-child(-n + 1){
+                            border-bottom:none;
+                        }
+                    }
+                }
+                @media(max-width:768px){
+                    width: 100%;
+                    overflow: auto;
+                    padding:5px;
+                }
+            }
+             @media(max-width:768px){
+                flex-direction:column;
+             }
+        }
+    }
+}
+.container-fluid.requirements_to_microsoft_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            .block-title{
+                text-align: center;
+                h2{
+                    padding: 0 15px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px; /* 122.222% */
+                }
+                hr.title-hr {
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                    width: 55px;
+                    height: 4px;
+                    background: #A3C4D5;
+                }
+            }
+            .description p{
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; 
+                @media(max-width: 768px){
+                    padding: 0 15px;
+                }
+            }
+        }
+         .row{
+            .requirements_block {
+                margin-top: 48px;
+                border-radius: 15px;
+                border: 4px solid #EFF9DF;
+                background: #FFF;
+                padding: 30px;
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 15px;
+                }
+                .description {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 33px;
+                    li{
+                        padding-left: 38px;
+                        position: relative;
+                    }
+                        li::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                        }
+                }
+                @media(max-width:768px){
+                    padding:15px;
+                    margin: 15px;
+                }
+            }
+        }
+        .row{
+            .benefit-block-all {
+                margin-top: 48px;
+            }
+            .col-xs-12.col-md-4 {
+                padding: 0;
+            }
+            .benefit-block {
+                min-height: 477px;
+                border-radius: 15px;
+                border: 4px solid #EFF9DF;
+                background: #FFF;
+                padding: 35px 28px;
+                ul.visible-items{
+                    margin-top: 21px;
+                    li {
+                        padding-left: 38px;
+                        position: relative;
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px; /* 206.25% */
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                        }
+                    }
+                }
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px; /* 120% */
+                }
+                @media(max-width:768px){
+                    margin-bottom: 20px;
+                }
+            }
+            .workflow-block {
+                border-radius: 15px;
+                border: 4px solid rgba(254, 185, 49, 0.10);
+                background: #FFF;
+                padding: 35px 28px;
+                ul.visible-items{
+                    margin-top: 21px;
+                    li {
+                        padding-left: 38px;
+                        position: relative;
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px; /* 206.25% */
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check-orange.svg);
+                        }
+                    }
+                }
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px; /* 120% */
+                }
+            }
+        }
+    }
+}
+.container-fluid.tasks_solved_section {
+    padding: 50px 0 30px 0;
+    .container{
+        .row-section{
+            h2{
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px; /* 122.222% */
+                padding: 0 15px;
+                margin-bottom: 16px;
+            }
+            hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span.description {
+                p{
+                    color: #646E78;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: center;
+                    padding: 0 15px;
+                    margin-bottom: 36px;
+                }
+            }
+            .col-xs-12.col-md-6 {
+                margin-bottom: 30px;
+            }
+            .block-1 {
+                display: flex;
+                align-items: self-start;
+                min-height: 228px;
+                border-radius: 20px;
+                background: #F9FAFB;
+                padding: 28px 28px;
+                img{
+                    margin-top: -10px;
+                    margin-left: -10px;
+                }
+                h4 {
+                    margin-bottom: 18px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+                span{
+                    p {
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+.container-fluid.onboarding_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {
+                padding: 0 15px;
+                color: #2F4155;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                text-align: center;
+            }
+             hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span.description {
+                margin-bottom: 30px;
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 16px;
+                padding: 0 15px;
+            }
+            .block-1,.block-2,.block-3,.block-4,.block-5{
+                    border-radius: 13.821px;
+                    background: #FFF;
+                    box-shadow: 0px 1.8428339958190918px 13.82125473022461px 0px rgba(47, 65, 85, 0.10);
+                    padding: 28px 38px 28px 28px;
+                    min-height: 214px;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+                h4 {display: inline-block;
+                    padding: 10px 20px 10px 28px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px; /* 120% */
+                    margin-bottom: 18px;
+                }
+                span {
+                        display: block;
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+                         .block-1.back-1{
+                h4 {
+                    background: #E8F4D3;
+                    margin-left: -28px;
+                }
+            }
+            .block-1.back-2{
+                h4 {
+                    background: #FBF5D8;
+                    margin-left: -28px;
+                }
+            }
+            .block-1.back-3{
+                h4 {
+                    background: #DCF3FF;
+                    margin-left: -28px;
+                }
+            }
+            .block-1.back-4{
+                h4 {
+                    background: #F4EEFB;
+                    margin-left: -28px;
+                }
+            }
+            .block-1.back-5{
+                h4 {
+                    background: #FCEDED;
+                    margin-left: -28px;
+                }
+            }
+            .block-1.back-6{
+                h4 {
+                    background: #E5FAFA;
+                    margin-left: -28px;
+                }
+            }
+
+        }
+        .row{
+            .col-xs-12.col-md-12 {
+                margin-top: 30px;
+            }
+            .col-xs-12.col-md-6 {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+.container-fluid.variety_section {
+    padding: 50px 0 30px 0;
+    .container{
+        .row-section{
+            h2{
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px; /* 122.222% */
+                padding: 0 15px;
+                margin-bottom: 16px;
+            }
+            hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span.description {
+                p{
+                    color: #646E78;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: center;
+                    padding: 0 15px;
+                    margin-bottom: 36px;
+                }
+            }
+            .row{
+                .col-xs-12.col-md-6 {
+                        margin-bottom: 30px;
+                    }
+                    .block-1 {
+                        display: flex;
+                        align-items: self-start;
+                        min-height: 420px;
+                    border-radius: 20px;
+                    background: #F9FAFB;
+                    padding: 28px 28px;
+                    img{
+                        margin-top: -10px;
+                        margin-left: -10px;
+                    }
+                    h4 {
+                        min-height: 48px;
+                        margin-bottom: 18px;
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px;
+                    }
+                    span{
+                        p {
+                            color: #646E78;
+                            font-family: Nunito;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+            
+            .row-class{
+                .block-1 {
+                    border-radius: 20px;
+                    background: #fff;
+                    box-shadow: 0px 2.67715px 20.07864px 0px rgba(47, 65, 85, 0.10);
+                    padding: 48px;
+                    margin-bottom: 14px;
+                    display: flex;
+                    align-items:self-start;
+                    .info-block {
+                        margin-left: 29px;
+                        h4 {
+                            color: #2F4155;
+                            font-family: Nunito;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 24px; /* 120% */
+                            margin-bottom: 18px;
+                        }
+                        span {
+                            color: #646E78;
+                            font-family: Nunito;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                        @media(max-width: 768px){
+                            margin-left: 0;
+                        }
+                    }
+                    @media(max-width:768px){
+                        padding:20px;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        .info-block {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            h4 {
+                                text-align: center;
+                            }
+                            span{
+                                text-align: center;
+                            }
+                            }
+                        }
+                    }
+            }
+        }
+    }
+}
+.container-fluid.requirements_consultants_section{
+    padding: 50px 0;
+    .container{
+        .row{
+             .info_section{
+                    margin-bottom: 30px;
+                }
+            h2{
+                padding: 0 15px;
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+            }
+            hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span {
+                text-align: center;
+                p{
+                    color: #646E78;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; /* 150% */
+                }
+            }
+            .requirements_consultants_block{
+                border-radius: 15px;
+                border: 4px solid #EFF9DF;
+                padding: 32px;
+                .description {
+                    ul.visible-items{
+                        li{
+                            padding-left: 38px;
+                            position: relative;
+                            color: #2F4155;
+                            font-family: Nunito;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 33px;
+                            &::before{
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                left: 0;
+                                top: 6px;
+                                width: 20px;
+                                height: 20px;
+                                background-position: 0 0;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                            }
+                        }
+                    }
+                }
+            }
+            a.button{  border-radius: 100px;
+                border: 2px solid #FEB931;
+                padding: 19px 56px;
+                color: #FEB931;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 18px; /* 71.429% */
+                text-transform: uppercase;
+                    margin-top: 20px;
+            }
+            .resumes-slider.slider-1-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h5 {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+                .resume-item{
+                    padding: 0;
+                    .resume-slide{
+                        margin: 0px 10px 0 12px;
+                        padding: 20px;
+                        border-radius: 20.079px;
+                        background: #FFF;
+                        box-shadow: 0px 2.6771514415740967px 20.078636169433594px 0px rgb(47 65 85 / 10%);
+                        .resume-item-img {
+                            img {
+                                height: 100%;
+                                max-width: 100%;
+                            }  
+                        }
+                        a.btn.btn-sec.btn-ico.resume-link {
+                            position: absolute;
+                            top: 45%;
+                            left: 0;
+                            right: 0;
+                            background-color: transparent;
+                        }
+                    }
+                }
+                @media(max-width:768px){
+                    margin-top: 20px;
+                    .resume-item{
+                        .resume-slide{
+                        
+                        }
+                    }  
+                }
+            }
+        }
+    }
+}
+.container-fluid.why_from_ukraine_section{
+    padding: 50px 0 50px 0;
+    .container{
+        .row{
+            h2 {
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                padding: 0 15px;
+            }
+            hr.title-hr {
+                border-radius: 100px;
+                background: #A3C4D5;
+                width: 55px;
+                height: 4px;
+                margin: 16px auto;
+            }
+            .why_from_ukraine_block {
+                margin-top: 30px;
+                border-radius: 13.821px;
+                background: #F9FAFB;
+                height: 160px;
+                max-width: 780px;
+                padding: 20px;
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+            }
+            .why_from_ukraine_block_2 {
+                margin-top: 30px;
+                border-radius: 13.821px;
+                background: #F9FAFB;
+                height: 160px;
+                max-width: 780px;
+                padding: 20px;
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+            }
+            .icons-box {
+                margin-top: -100px;
+                margin-left: 20px;
+                padding: 30px;
+                border-radius: 5px;
+                background: #FFF;
+                box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.07);
+                ul.visible-items {
+                    li{
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px; /* 206.25% */
+                        padding-left: 38px;
+                        position: relative;
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check-orange.svg);
+                        }
+                    }
+                }
+                
+                @media(max-width:768px){
+                    margin-top: -20px;
+                }
+            }
+            .icons-box-2 {
+                margin-top: -75px;
+                margin-left: 20px;
+                padding: 30px;
+                border-radius: 5px;
+                background: #FFF;
+                box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.07);
+                ul.visible-items {
+                    li{
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px; /* 206.25% */
+                        padding-left: 38px;
+                        position: relative;
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check-blue.svg);
+                        }
+                    }
+                }
+                
+                @media(max-width:768px){
+                    margin-top: -20px;
+                }
+            }
+            span{
+                p {
+                    color: #646E78;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+            @media(max-width:768px){
+                span p {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.why_choose_us_partner_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            .block-title{
+                text-align: center;
+                h2{
+                    padding: 0 15px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px; /* 122.222% */
+                }
+                hr.title-hr {
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                    width: 55px;
+                    height: 4px;
+                    background: #A3C4D5;
+                }
+            }
+            .description p{
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; 
+                @media(max-width: 768px){
+                    padding: 0 15px;
+                }
+            }
+            .how_we_hire_great_block {
+                margin-top: 48px;
+                padding: 0 15px;
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px; /* 120% */
+                }
+            }
+            .icons-box {
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                .icon-box {
+                    margin: 15px;
+                    border-radius: 20px;
+                    background: #F9FAFB;
+                    max-width: 270px;
+                    padding: 33px;
+                    img {
+                        margin-left: -15px;
+                    }
+                    p {
+                       color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                @media(max-width:768px){
+                    .icon-box {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+        .row{
+            .benefit-block-all {
+                margin-top: 36px;
+            }
+            .benefit-block {
+                border-radius: 15px;
+                border: 4px solid #EFF9DF;
+                background: #FFF;
+                padding: 35px 28px;
+                min-height: 468px;
+                ul.visible-items{
+                    margin-top: 21px;
+                    li {
+                        padding-left: 38px;
+                        position: relative;
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px; /* 206.25% */
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                        }
+                    }
+                }
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px; /* 120% */
+                }
+            }
+            .workflow-block {
+                border-radius: 15px;
+                border: 4px solid rgba(0, 174, 255, 0.10);
+                background: #FFF;
+                padding: 35px 28px;
+                ul.visible-items{
+                    margin-top: 21px;
+                    li {
+                        padding-left: 38px;
+                        position: relative;
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px; /* 206.25% */
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check-blue.svg);
+                        }
+                    }
+                }
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px; /* 120% */
+                }
+                @media(max-width:768px){
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.demand_in_industries_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {padding:0 15px;
+                color: #2F4155;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                margin-bottom: 25px;
+            }
+            hr.title-hr {
+                border-radius: 100px;
+                background: #A3C4D5;
+                width: 55px;
+                height: 4px;
+                margin: 0 0 26px 0;
+            }
+            span p {
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+            .demand_in_industries_block {
+                .description{
+                    padding: 28px;
+                    border-radius: 15px;
+                    border: 4px solid #EFF9DF;
+                    background: #FFF;
+                    ul.visible-items{
+                        li {padding-left: 38px;
+                            position: relative;
+                            color: #2F4155;
+                            font-family: Nunito;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 33px;
+                            &::before {
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                left: 0;
+                                top: 6px;
+                                width: 20px;
+                                height: 20px;
+                                background-position: 0 0;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                            }
+                        }
+                    }
+                }
+                @media(max-width:768px){
+                    padding-bottom: 26px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.an_overview_section {
+    padding: 50px 0 30px 0;
+    .container{
+        .row-section{
+            h2{
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px; /* 122.222% */
+                padding: 0 15px;
+                margin-bottom: 16px;
+            }
+            hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span.description {
+                p{
+                    color: #646E78;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: center;
+                    padding: 0 15px;
+                    margin-bottom: 36px;
+                }
+            }
+            .col-xs-12.col-md-6 {
+                margin-bottom: 30px;
+            }
+            .block-1 {
+                display: flex;
+                align-items: self-start;
+                min-height: 206px;
+                border-radius: 20px;
+                background: #F9FAFB;
+                padding: 28px 28px 30px 38px;
+                img{
+                    margin-top: -10px;
+                    margin-left: -10px;
+                }
+                h4 {
+                    margin-bottom: 18px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+                span{
+                    p {
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .hiring_block {
+                border-radius: 13.821px;
+                background: #F9FAFB;
+                height: 160px;
+                max-width: 780px;
+                padding: 20px;
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+            }
+            .icons-box {
+                margin-top: -95px;
+                padding-bottom: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                .icon-box {
+                    margin: 10px;
+                    border-radius: 5px;
+                    background: #FFF;
+                    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 7%);
+                    max-width: 175px;
+                    padding: 23px;
+                    p {
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 19px; /* 118.75% */
+                    }
+                    img {
+                        margin-bottom: 8px;
+                    }
+                }
+                @media(max-width:768px){
+                    margin-top: -60px;
+                    .icon-box {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+.container-fluid.ms_dynamics_images_section{
+    padding: 50px 0;
+    .container{
+        .row{
+            max-width: 970px;
+            margin: 0 auto;
+            a.button{  
+                border-radius: 100px;
+                border: 2px solid #FEB931;
+                padding: 19px 56px;
+                color: #FEB931;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 18px; /* 71.429% */
+                text-transform: uppercase;
+                margin-top: 20px;
+                @media(max-width: 768px){
+                    padding: 16px;
+                }
+            }
+            .resumes-slider.slider-1-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h5 {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                }
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+                .resume-item{
+                    padding: 0;
+                    .resume-slide{
+                        margin: 0px 10px 0 12px;
+                        padding: 20px 20px 40px 20px;
+                        border-radius: 20.079px;
+                        background: #FFF;
+                        box-shadow: 0px 2.6771514415740967px 20.078636169433594px 0px rgb(47 65 85 / 10%);
+                        .resume-item-img {
+                            margin: 0 auto 35px;
+                            img {
+                                height: 100%;
+                                max-width: 100%;
+                            }  
+                        }
+                        a.btn.btn-sec.btn-ico.resume-link {
+                            position: absolute;
+                            top: 45%;
+                            left: 0;
+                            right: 0;
+                            background-color: transparent;
+                        }
+                    }
+                }
+                @media(max-width:768px){
+                    margin-top: 20px;
+                    .resume-item{
+                        .resume-slide{
+                        
+                        }
+                    }  
+                }
+            }
+            .resumes-slider.slider-2-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h5 {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                }
+                span {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+                .resume-item{
+                    padding: 0;
+                    .resume-slide{
+                        margin: 0px 10px 0 12px;
+                        padding: 20px 20px 40px 20px;
+                        border-radius: 20.079px;
+                        background: #FFF;
+                        box-shadow: 0px 2.6771514415740967px 20.078636169433594px 0px rgb(47 65 85 / 10%);
+                        .resume-item-img {
+                            margin: 0 auto 35px;
+                            img {
+                                height: 100%;
+                                max-width: 100%;
+                            }  
+                        }
+                        a.btn.btn-sec.btn-ico.resume-link {
+                            position: absolute;
+                            top: 45%;
+                            left: 0;
+                            right: 0;
+                            background-color: transparent;
+                        }
+                    }
+                }
+                @media(max-width:768px){
+                    margin-top: 20px;
+                    .resume-item{
+                        .resume-slide{
+                        
+                        }
+                    }  
+                }
+            }
+        }
+    }
+}
+.what_does_your_business_section {
+    padding: 50px 0;
+    .container{
+        .row-section{
+            h2{
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px; /* 122.222% */
+                padding: 0 15px;
+                margin-bottom: 16px;
+            }
+            hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span.description {
+                p{
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding: 0 15px;
+                    margin-bottom: 36px;
+                }
+            }
+            .block-1 {
+                border-radius: 20px;
+                background: #F9FAFB;
+                padding: 33px;
+                display: flex;
+                align-items: flex-start;
+                min-height: 214px;
+                h4 {
+                    margin-bottom: 18px;
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+                span{
+                    p {
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .row{
+                margin-top: 30px;
+            }
+            @media(max-width:768px){
+                .six-block{
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.what_products_work_with_section {
+    padding: 50px 0;
+    .container{
+        .row{
+            .block-title {
+                h2{
+                    color: #2F4155;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px; /* 122.222% */
+                    padding: 0 15px;
+                    text-align: center;
+                }
+                hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            }
+            span.description {
+                    p{
+                        padding: 0 15px;
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px; /* 150% */
+                    }  
+                }
+            .row-class {
+                padding-top: 36px;
+            }
+            .block-1 {
+                border-radius: 20px;
+                background: #F9FAFB;
+                padding: 24px 32px;
+                margin-bottom: 14px;
+                display: flex;
+                align-items:self-start;
+                .info-block {
+                    h4 {
+                        color: #2F4155;
+                        font-family: Nunito;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px; /* 120% */
+                        margin-bottom: 18px;
+                    }
+                    span {
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                @media(max-width:768px){
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .info-block {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        h4 {
+                            text-align: center;
+                        }
+                        span{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.container-fluid.why_work_with_us_section{
+    padding: 50px 0;
+    .container{
+        .row{
+            h2 {padding: 0 15px;
+                color: #2F4155;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                text-align: center;            }
+             hr.title-hr {
+                    border-radius: 100px;
+                    background: #A3C4D5;
+                    width: 55px;
+                    height: 4px;
+                    margin: 16px auto;
+                }
+            span p{
+                padding: 0 15px;
+                color: #646E78;
+                font-family: Nunito;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+            }
+            .why_work_with_us_block {
+                margin-top: 36px;
+                border-radius: 15px;
+                border: 4px solid #EFF9DF;
+                background: #FFF;
+                padding: 30px;
+                span {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 15px;
+                }
+                .description {
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 33px;
+                    li{
+                        padding-left: 38px;
+                        position: relative;
+                    }
+                        li::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                        }
+                }
+                @media(max-width:768px){
+                    padding:15px;
+                    margin: 15px;
+                }
+            }
+        }
+    }
+}
+.container-fluid.our_model_for_team_building_section{
+    padding: 50px 0 50px 0;
+    .container{
+        .row{
+            h2 {
+                color: #2F4155;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                padding: 0 15px;
+            }
+            hr.title-hr {
+                margin-top: 16px;
+                margin-bottom: 16px;
+                width: 55px;
+                height: 4px;
+                background: #A3C4D5;
+            }
+            .our_model_for_team_building_block {
+                text-align: center;
+                span {
+                    color: #646E78;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding: 0 15px;
+                }
+            }
+            .icons-box {
+                margin-top: 35px;
+                display: flex;
+                flex-wrap: wrap;
+                .icon-box {
+                    margin: 15px;
+                    border-radius: 20px;
+                    background: #F9FAFB;
+                    padding: 33px;
+                    img {
+                        margin-left: -15px;
+                    }
+                    p {
+                       color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                @media(max-width:768px){
+                    .icon-box {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+            span{
+                p {
+                    color: #646E78;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+            @media(max-width:768px){
+                span p {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}

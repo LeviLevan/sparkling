@@ -1,0 +1,136 @@
+.page-id-29 {
+  background: #fff;
+
+  header {
+    position: relative;
+    //top: 0;
+    .header__mail {
+      padding-top: 23px;
+    }
+  }
+
+  .page--sitemap {
+    background: #fff;
+    padding: 3rem 0 17rem;
+    font-size: 1.6rem;
+    min-height: 76vh;
+    a {
+      &:hover {
+        color: $main-color;
+      }
+      &:focus {
+        color: $main-color;
+      }
+    }
+    .wsp-posts-list {
+      list-style-type: none;
+      padding-left: 0;
+      .wsp-category-title {
+        display: none;
+      }
+      .wsp-posts-list {
+        list-style-type: disc;
+        padding-left: 40px;
+      }
+    }
+  }
+
+
+  footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: #4d5369;
+  }
+
+  @media (max-width: 1367px) and (min-width: 992px) {
+    header {
+      .row__logo {
+        display: block;
+        padding: 0rem 0;
+        .header__logo--container {
+          margin: 4px 0;
+        }
+      }
+      .header__mail {
+        padding-top: 17px;
+        margin: 16px 0;
+      }
+    }
+    .page--sitemap {
+      background: #fff;
+
+    }
+  }
+
+  @media (max-width: 1199px) {
+    header {
+      .row__logo {
+        .header__logo--container {
+          margin: 8px 0;
+        }
+      }
+
+      .header__mail {
+        padding-top: 11px;
+        padding-bottom: 11px;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    header {
+      .header__mail {
+        margin: 16px 0;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .page--sitemap {
+
+    }
+    header {
+      .header__logo--container {
+        left: auto;
+        display: block;
+        text-align: center;
+      }
+      .header__mail {
+        padding-top: 0px;
+        margin: 0;
+      }
+    }
+  }
+
+  @media (max-width: 543px) {
+    header {
+      .row__logo {
+        text-align: center;
+        .header__logo--container {
+          left: 0;
+          margin-left: 0;
+          position: relative;
+        }
+      }
+      .offset-sm-2 {
+        margin-left: 0;
+      }
+      .col-sm-8 {
+        float: left;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  @media (max-height: 500px) {
+    .page--sitemap {
+      height: auto;
+      padding: 3rem 0 3rem;
+    }
+    footer {
+      position: relative;
+    }
+  }
+}

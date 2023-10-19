@@ -1,0 +1,817 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1367px) {
+  .error404 {
+    header {
+      .row__logo {
+        display: block;
+      }
+    }
+  }
+
+  section {
+    padding-top: 6rem;
+  }
+
+  .laravel {
+    padding-top: 8rem;
+
+    .laravel__title {
+      font-size: 4.5rem;
+      padding-top: 45px;
+    }
+
+    .laravel__subtitle {
+      font-size: 3.5rem;
+    }
+
+    .flex__animation {
+      @include flexbox();
+      @include flex-direction(row);
+      @include justify-content(center);
+      @include align-items(center);
+    }
+  }
+  .request {
+    padding-bottom: 6rem;
+  }
+  .contact {
+    .contact__button {
+      padding-bottom: 7.5rem;
+    }
+
+    div.wpcf7-mail-sent-ok {
+      margin-top: 1.5rem;
+    }
+  }
+  .page--blog, .page--post {
+    //padding-top: 8rem;
+  }
+}
+
+//LG
+@media (max-width: 1199px) {
+  header {
+    .row__logo {
+      padding: 1rem 0;
+    }
+
+    .header__logo {
+      height: 76px;
+      margin: 0 0 0 -24px;
+    }
+
+    .header__mail {
+      //
+    }
+
+    .row__nav {
+      .header__logo--container {
+        .header__logo {
+          height: 5.5rem;
+          margin: 10px 0;
+        }
+      }
+
+      #navbar__scroll {
+        padding: 1.2rem 0;
+      }
+    }
+  }
+
+  .navbar-wrap {
+    order: 9;
+    flex: 0 0 100%;
+  }
+
+  main {
+    position: relative;
+    padding-top: 14rem;
+  }
+
+  section {
+    padding-top: 6rem;
+  }
+
+  .laravel {
+    padding-top: 13rem;
+
+    .laravel__img {
+      height: 393px;
+    }
+
+    .laravel__title {
+      padding-top: 50px;
+    }
+  }
+
+  .title {
+    font-size: 2.6rem;
+
+    &::before {
+      top: 0;
+    }
+  }
+
+  .title__shadow {
+    font-size: 7rem;
+    top: -3rem;
+  }
+
+  .banner-list {
+    column-count: 2;
+    margin-right: 0;
+  }
+
+  .laravel {
+    min-height: 760px;
+    height: auto;
+
+    .laravel__subtitle {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .features {
+    .features__content {
+      padding-left: 30px;
+      margin-bottom: 0;
+
+      .content__title {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+      }
+    }
+
+    .features__laravel {
+      bottom: -160px;
+      right: 20px;
+      left: auto;
+    }
+
+    .features__content--bg {
+      background: none;
+    }
+
+    .features__hexagon {
+      height: 620px;
+      margin-top: 0;
+
+      .hexagon {
+        &.hexagon--6 {
+          left: 145px;
+          top: -430px;
+        }
+      }
+    }
+  }
+  .request {
+    padding-bottom: 6.5rem;
+  }
+  .why-us {
+    .img__box {
+      width: 48.4%;
+
+      .why-us__img {
+        height: 740px;
+      }
+    }
+
+    .why-us__column {
+      &.column__first {
+        &::before {
+          left: -19px;
+        }
+      }
+    }
+  }
+  .solutions {
+    .title__shadow {
+      font-size: 6.5rem;
+    }
+  }
+  .testimonial {
+    .testimonial__description {
+      padding: 4rem 0;
+      padding-right: 2rem;
+    }
+
+    .testimonial__content {
+      padding: 11.7rem 0;
+    }
+  }
+  .contact {
+    .contact__button {
+      padding-bottom: 7.5rem;
+    }
+
+    .custom_file {
+      height: 43px;
+    }
+  }
+
+  .page--blog, .page--post {
+    padding-top: 20rem;
+
+    .post__sidebar,
+    .post__sidebar {
+      .widget-title {
+        font-size: 16px;
+
+        &::before {
+          width: 25px;
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+
+  .btn-banner, .contact__button button[type="submit"] {
+    padding: 25px 30px;
+  }
+
+  .post__sidebar {
+    .form-wrapper {
+      .needs-radio {
+        .wpcf7-list-item {
+          .wpcf7-list-item-label {
+            padding: 8px 30px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    .footer__logo {
+      height: 76px;
+    }
+  }
+}
+
+//MD
+@media (max-width: 991px) {
+  .header__mail {
+    display: none;
+  }
+
+  .section-benefits,
+  .section-main-banner {
+    img {
+      margin-bottom: 27px;
+    }
+  }
+
+  .row-banner-content {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+
+  .laravel {
+    padding-top: 10rem;
+
+    .laravel__img {
+      float: left;
+      width: 50%;
+      height: 463px;
+    }
+
+    .benefit__content {
+      float: right;
+      top: 0;
+      margin-top: 14rem;
+      width: 50%;
+    }
+
+    .laravel__title {
+      text-align: center;
+      padding: 30px 0;
+    }
+  }
+
+  .features {
+    padding-bottom: 30px;
+
+    .features__title {
+      width: 47%;
+    }
+
+    .features__img {
+      margin: 2rem auto;
+      height: 200px;
+    }
+
+    .features__content--bg {
+      background: transparent;
+      transform: none;
+
+      .features__content {
+        transform: none;
+
+        .content__list {
+          padding-left: 18px;
+        }
+      }
+    }
+
+    .features__hexagon {
+      margin-left: 80px;
+      height: 270px;
+      margin-top: 100px;
+
+      .hexagon {
+        &.hexagon--3 {
+          left: 145px;
+          top: -429px;
+        }
+
+        &.hexagon--4 {
+          top: -517px;
+          left: 290px;
+        }
+
+        &.hexagon--5 {
+          top: -774px;
+          left: 434px;
+        }
+
+        &.hexagon--6 {
+          left: 433px;
+          top: -774px;
+        }
+      }
+    }
+
+    .features__laravel {
+      display: none;
+    }
+  }
+  .request {
+    padding-top: 6.4rem;
+    padding-bottom: 7rem;
+
+    .request__content {
+      font-size: 2rem;
+      padding-top: 2px;
+    }
+  }
+  .solutions {
+    .solutions__title {
+      width: 50%;
+      margin-bottom: 2rem;
+    }
+
+    .solutions__list {
+      padding-left: 26%;
+
+      .content__list {
+        padding-left: 3px;
+      }
+    }
+  }
+  .why-us {
+    .why-us__column {
+      &.column__first {
+        &::before {
+          left: 11px;
+        }
+      }
+    }
+  }
+  .testimonial {
+    background: #f8fafd;
+
+    .testimonial__description {
+      padding: 4.8rem 0;
+    }
+
+    .container__bg {
+      background: url("../assets/solution__bg.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      max-width: 100%;
+
+      .row {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+    }
+
+    .testimonial__content {
+      padding: 7rem 0;
+    }
+  }
+  .contact {
+    padding-top: 6rem;
+
+    .title__shadow {
+      top: -5rem;
+      font-size: 6rem;
+    }
+
+    div.wpcf7-mail-sent-ok {
+      margin-left: 30px;
+    }
+  }
+
+  .needs-radio {
+    .wpcf7-list-item {
+      .wpcf7-list-item-label {
+        padding: 8px 10px;
+      }
+    }
+  }
+
+  .page--blog, .page--post {
+    //
+  }
+
+  footer {
+    .footer__logo {
+      //height: 60px;
+    }
+  }
+}
+
+//SM
+@media (max-width: 1024px) {
+  html {
+    font-size: 8px;
+  }
+  section {
+    padding-top: 4rem;
+  }
+  header {
+
+    .home & {
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .hamburger {
+      //
+    }
+
+    .header__logo--container {
+      .header__logo {
+        height: 59px;
+        margin: 0;
+        width: auto;
+      }
+    }
+
+    .header__mail {
+      text-align: center;
+    }
+
+    .header__button {
+      text-align: center;
+    }
+  }
+  .laravel {
+    padding-top: 4rem;
+
+    .laravel__img {
+      height: 383px;
+    }
+
+    .benefit__content {
+      margin-top: 13rem;
+    }
+
+    .laravel__title {
+      font-size: 4.5rem;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .laravel__subtitle {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+  }
+  .features {
+    .features__title {
+      width: 60%;
+    }
+
+    .title__shadow {
+      top: -6.5rem;
+    }
+
+    .features__hexagon {
+      margin-left: 81px;
+      height: 440px;
+      margin-top: 30px;
+
+      .hexagon {
+        &.hexagon--3 {
+          left: 0;
+          top: -172px;
+        }
+
+        &.hexagon--4 {
+          left: 145px;
+          top: -258px;
+        }
+
+        &.hexagon--5 {
+          top: -685px;
+          left: 291px;
+        }
+
+        &.hexagon--6 {
+          left: 291px;
+          top: -685px;
+        }
+      }
+    }
+  }
+  .request {
+    padding-top: 4.4rem;
+    text-align: center;
+
+    .request__content {
+      margin-bottom: 2rem;
+    }
+  }
+  .why-us {
+    .why-us__title {
+      width: 70%;
+    }
+  }
+  .solutions {
+    .solutions__title {
+      width: 70%;
+    }
+
+    .solutions__list {
+      padding-left: 19%;
+    }
+  }
+  .testimonial {
+    .testimonial__content {
+      .testimonial__content--text {
+        &::before {
+          top: -80px;
+        }
+      }
+    }
+  }
+
+  .solutions-roadmap {
+    flex-direction: column;
+  }
+
+  .roadmap-item {
+    margin: 0 0 25px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+    &::before {
+      transform: rotate(90deg);
+      left: 50%;
+      margin-left: -14px;
+      margin-top: 0;
+      top: -17px;
+    }
+  }
+
+  .contact {
+    .title__shadow {
+      top: -4rem;
+      font-size: 4.8rem;
+    }
+
+    div.wpcf7-mail-sent-ok {
+      margin: 2rem;
+      margin-left: -120px;
+      left: 50%;
+      top: 52px;
+    }
+
+    label {
+      min-height: 20px;
+    }
+
+    .contact__button {
+      text-align: center;
+    }
+  }
+
+  .specialization-radio {
+    display: block;
+  }
+
+  .page--blog {
+    .flex {
+      display: block;
+    }
+
+    .post__img {
+      height: 250px;
+      margin-bottom: 15px;
+    }
+  }
+  .page--blog, .page--post {
+    padding-top: 12rem;
+  }
+
+  .header__link_mobilunity {
+    display: none;
+  }
+}
+
+//XS
+@media (max-width: 543px) {
+  header {
+    .row__logo {
+      text-align: center;
+    }
+
+    .hamburger {
+      right: 0;
+      left: auto;
+    }
+
+    .header__logo--container {
+      left: 0%;
+      margin-left: 0;
+    }
+  }
+
+  .laravel {
+    .laravel__title {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+
+    .laravel__subtitle {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    .laravel__img {
+      float: none;
+      width: auto;
+    }
+
+    .benefit__content {
+      width: 100%;
+      text-align: center;
+      float: none;
+      margin-top: 2rem;
+    }
+  }
+  .features {
+    .features__title {
+      width: 80%;
+    }
+
+    .features__content {
+      padding-left: 0;
+      padding-top: 30px;
+    }
+  }
+  .why-us {
+    .why-us__title {
+      width: 90%;
+    }
+
+    .column__border--left {
+      border-left: 0;
+    }
+
+    .column__border--bottom {
+      border-bottom: 0;
+    }
+
+    .why-us__column {
+      .column__img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      .column__content {
+        padding-bottom: 20px;
+      }
+    }
+  }
+  .solutions {
+    .solutions__title {
+      width: 90%;
+    }
+
+    .solutions__list {
+      padding-left: 0;
+    }
+  }
+  .features {
+    .features__hexagon {
+      display: none;
+    }
+  }
+  .contact {
+    .title__shadow {
+      line-height: 1;
+      top: -7rem;
+    }
+  }
+
+  .page--blog {
+    .post__img {
+      height: 200px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .title__shadow {
+    font-size: 5rem;
+    top: -1rem;
+  }
+  .features {
+    .features__title {
+      width: 100%;
+    }
+
+    .title__shadow {
+      top: -4.5rem;
+    }
+
+    .features__content {
+      .content__title {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  .request {
+    .request__button {
+      margin: 0 auto;
+      width: 80%;
+
+      .button {
+        display: block;
+      }
+    }
+  }
+  .why-us {
+    .why-us__title {
+      width: 100%;
+    }
+  }
+  .solutions {
+    .solutions__title {
+      width: 100%;
+    }
+
+    .title__shadow {
+      font-size: 5rem;
+      top: -1rem;
+    }
+  }
+  .works {
+    .title__shadow {
+      width: 260px;
+      font-size: 5rem;
+    }
+  }
+
+  .laravel {
+
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    .header__logo--container {
+      .header__logo {
+        height: 5.5rem;
+      }
+    }
+  }
+  .laravel {
+    .laravel__button {
+      .button {
+        display: block;
+      }
+    }
+  }
+  .contact {
+    .title__shadow {
+      font-size: 3.8rem;
+      top: -5.5rem;
+    }
+  }
+}
+
+@media all and (min-width: 768px) {
+  .footer-logo {
+    margin: 0 auto 25px;
+  }
+}

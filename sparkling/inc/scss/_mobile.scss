@@ -1,0 +1,475 @@
+.hamburger {
+  display: none;
+  padding: 0 15px;
+  cursor: pointer;
+  transition-property: opacity, -webkit-filter;
+  transition-property: opacity, filter;
+  transition-property: opacity, filter, -webkit-filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+
+.hamburger-box {
+  width: 19px;
+  height: 16px;
+  display: block;
+  position: relative;
+}
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -1px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  width: 19px;
+  height: 2px;
+  background-color: #242628;
+  position: absolute;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+
+.hamburger-inner::before, .hamburger-inner::after {
+  content: "";
+  display: block;
+}
+
+.hamburger-inner::before {
+  top: -7px;
+}
+
+.hamburger-inner::after {
+  bottom: -7px;
+}
+
+/*
+ * Spin
+ */
+.hamburger--spin .hamburger-inner {
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--spin .hamburger-inner::before {
+  transition: top 0.1s 0.34s ease-in, opacity 0.1s ease-in;
+}
+
+.hamburger--spin .hamburger-inner::after {
+  transition: bottom 0.1s 0.34s ease-in, -webkit-transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.1s 0.34s ease-in, transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.1s 0.34s ease-in, transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--spin.is-active .hamburger-inner {
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+  transition-delay: 0.14s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--spin.is-active .hamburger-inner::before {
+  top: 0;
+  opacity: 0;
+  transition: top 0.1s ease-out, opacity 0.1s 0.14s ease-out;
+}
+
+.hamburger--spin.is-active .hamburger-inner::after {
+  bottom: 0;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  transition: bottom 0.1s ease-out, -webkit-transform 0.3s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: bottom 0.1s ease-out, transform 0.3s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: bottom 0.1s ease-out, transform 0.3s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.3s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+
+@media (max-width: 1024px) {
+  .post__img_main img{
+    border-radius: 10px;
+  }
+  #wpadminbar {
+    position: fixed;
+    display: none;
+  }
+
+  header {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    top: 0;
+    padding: 5px 0;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 50;
+      background-color: #fff;
+    }
+
+    .hamburger {
+      display: inline-block;
+    }
+
+    .header__logo--container {
+      display: inline-block;
+    }
+
+    .row__logo {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      position: relative;
+      z-index: 51;
+      background-color: #fff;
+      text-align: left;
+    }
+
+    .header__mail {
+      display: flex;
+      margin: 0;
+      padding: 27px 0 30px;
+      border-top: 1px solid rgba(#F9FAFB, 0.1);
+      border-bottom: 1px solid rgba(#F9FAFB, 0.1);
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .row__nav {
+      border: 0;
+      z-index: 49;
+      top: 0;
+      height: 0;
+      overflow: auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0;
+      background: #144C68;
+      mix-blend-mode: normal;
+      box-shadow: 0 2px 9px rgba(0, 0, 0, 0.5);
+      transition: all 0.5s ease;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap:nowrap;
+
+      &.is-active {
+        height: calc(100vh - 52px);
+        top: 69px;
+        padding-top: 155px;
+        padding-bottom: 25px;
+      }
+
+      #navbar__scroll {
+        .nav {
+          .nav-item {
+            display: block;
+            padding: 4px 0;
+
+            &::after {
+              content: none;
+            }
+
+            .nav-link,
+            .nav-link--blog {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 20px;
+              text-transform: capitalize;
+              color: #FFFFFF;
+              text-align: center;
+              display: block;
+            }
+
+            &.active {
+              .nav-link {
+                border: none;
+              }
+            }
+          }
+        }
+      }
+      .widgets-wrap .header__button:nth-child(1) {
+        margin-left:0;
+        a.h__button.consultant__button.button{
+          background-color: #186d96;
+          &:hover{
+            background: #0d3d54;
+          }
+        }
+      }
+      .widgets-wrap .header__button:nth-child(2) {
+        display: none;
+      }
+    }
+
+    .header__mail--envelope {
+      background-image: url("https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-mail-white.svg");
+    }
+  }
+
+  .widgets-wrap {
+    justify-content: center;
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  .navbar-wrap {
+    order: 0;
+    flex: 0 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .header__mail_span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 10px;
+    color: #FFFFFF;
+  }
+
+  .menu-close {
+    display: none;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 25px;
+    top: 33px;
+    font: 0/0 caption;
+    border: none;
+    background: transparent url("https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-menu-close.svg") no-repeat 0 0/contain;
+  }
+
+  .col-hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .header__logo-wrap {
+    display: none;
+  }
+
+  footer {
+    padding: 12px 0 35px;
+
+    .row {
+      display: block;
+      text-align: center;
+    }
+
+    .footer__logo {
+      height: 100px;
+    }
+
+    .footer__disclaimer {
+      margin-bottom: 27px;
+      line-height: 16px;
+    }
+  }
+
+  .banner-list,
+  .benefits-list {
+    column-count: 1;
+  }
+
+  .section-main-banner {
+    padding-top: 25px;
+    padding-bottom: 39px;
+  }
+
+  .main-banner-title {
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .main-banner-button {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+
+  .banner-list-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .benefits-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+
+  .benefits-list-title {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .contact {
+    padding: 24px 20px 42px;
+    .form-wrapper {
+      div[class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .col-md-6 {
+        width: 100%;
+      }
+
+      .needs-radio,
+      .specialization-radio {
+        display: block;
+      }
+
+      label {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 1;
+        margin-bottom: 5px;
+      }
+
+      .name, .email, .tel, .country, .file, .needs, .budget, .duration, .message {
+        padding-bottom: 2.5rem;
+      }
+
+      .custom_file {
+        margin: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 44px;
+
+        > input {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 44px;
+        }
+      }
+
+      .file {
+        flex-direction: column;
+
+        .file__notice {
+          text-align: center;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 15px;
+        }
+      }
+
+      .file__delete {
+      }
+
+      .needs {
+        > label {
+          margin-bottom: 11px;
+        }
+      }
+
+      .needs-radio,
+      .specialization-radio {
+        .wpcf7-list-item {
+          margin: 0;
+          width: 100%;
+
+          label {
+
+          }
+
+          input {
+
+          }
+
+          .wpcf7-list-item-label {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 8px 60px;
+          }
+        }
+      }
+
+      .contact__button {
+        button {
+          &[type="submit"] {
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+
+            &:hover,
+            &:focus {
+            }
+          }
+        }
+      }
+    }
+
+    .wpcf7 {
+      padding: 0 15px;
+    }
+
+    .section-title {
+      font-size: 24px;
+      line-height: 44px;
+      text-align: left;
+    }
+  }
+
+  .needs-radio,
+  .specialization-radio {
+    margin: 0;
+
+    .wpcf7-list-item {
+      padding: 0;
+
+      label {
+        margin-bottom: 10px;
+        height: auto;
+      }
+    }
+  }
+
+  .page--blog,
+  .page--post {
+    .blog__title {
+      font-size: 30px;
+      line-height: 48px;
+    }
+  }
+}
+
+.touch {
+  body:last-child:not(:root:root) {
+    input#file__upload::-webkit-input-placeholder {
+      color: #000;
+    }
+  }
+
+  body:last-child:not(:root:root) {
+    textarea::-webkit-input-placeholder {
+      position: relative;
+      left: -2px;
+    }
+  }
+}

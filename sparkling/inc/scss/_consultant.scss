@@ -1,0 +1,470 @@
+.single-consultants{
+    footer {
+        margin-top: 48px;
+    }
+}
+.single-consultants .modal-body img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 490px;
+}
+.container-fluid.info_section {
+    padding-top: 160px;
+    @media(max-width: 768px){
+        padding-top: 127px;
+    }
+    @media(max-width: 766px){
+        padding-top: 70px;
+    }
+    .container {
+        position: relative;
+        padding: 44px 77px;
+        border-radius: 20px;
+        background: linear-gradient(180deg, #1C77A6 0%, #166892 100%);
+        .row {
+            display: flex;
+            align-items: center;
+            @media(max-width: 768px){
+                flex-direction: column;
+            }
+            .block-hours-week {
+                position: absolute;
+                top: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background: #145B80;
+                width: 211px;
+                height: 90px;
+                border-radius: 0 0 10px 10px;
+                span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #FFF;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px;
+                    img {
+                        margin-right: 6px;
+                    }
+                }
+                p {
+                    color: #8AB0C3;
+                    font-family: Nunito;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 16px;
+                    letter-spacing: 0.7px;
+                    text-transform: uppercase;
+                    }
+                }
+            .block-info {
+                display: flex;
+                align-items: flex-start;
+                img{
+                    margin-right: 26px;
+                    max-width: 76px;
+                    height: auto;
+                    border-radius: 50%;
+                }
+                .description-block {
+                    display: flex;
+                    flex-direction: column;
+                    h1 {
+                    color: #FFF;
+                    font-family: Nunito;
+                    font-size: 44px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 54px;
+                    }
+                    span {
+                        color: #6CF;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 20px;
+                        text-transform: capitalize;
+                        padding: 0 0 16px 0;
+                    }
+                    a.btn{
+                        max-width: 200px;
+                        color: #FEB931;
+                        background: #186C97;
+                        border-radius: 100px;
+                        border: 2px solid #FEB931;
+                        box-shadow: 0px 2px 20px 0px rgb(0 0 0 / 10%);
+                        .ico-eye {
+                            margin-top: -1px;
+                            background: transparent url(https://www.hiredynamicsdevelopers.com/wp-content/uploads/2023/08/eye.svg) no-repeat center center/17px 13px;
+                        }
+                    }
+                    @media(max-width:768px){
+                        align-items: center;
+                    }
+                }
+                @media(max-width: 768px){
+                    padding-top: 65px;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    img{
+                        margin-right:0;
+                    }
+                }
+            }
+            .block-shortcode{
+                .wpcf7-response-output {
+                    color: #fff;
+                    margin: 0;
+                }
+                h2 {
+                    color: #FFF;
+                    font-family: Nunito;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px;
+                    text-align: center;
+                }
+                .consultant-border{
+                    border-bottom: 4px solid #66CCFF;
+                    margin: 0 auto;
+                    width: 55px;
+                }
+                label {
+                    color: #FFF;
+                    font-family: Nunito;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    margin-top: 14px;
+                    span.field__required {
+                        color: #F37E3C;
+                    }
+                    input{
+                        width: 100%;
+                        border-top: 0;
+                        border-left: 0;
+                        border-right: 0;
+                        color: rgba(255, 255, 255, 0.7);
+                        background: transparent;
+                        border-bottom: 2px solid rgba(182, 197, 213, 0.5);
+                    }
+                    input::placeholder {
+                        color: rgba(255, 255, 255, 0.7);
+                        font-family: Nunito;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 44px;
+                    }
+                    .wpcf7-not-valid-tip {
+                        color: #dc3232;
+                        font-size: 0.9em;
+                        text-transform: initial;
+                    }
+                    textarea {
+                        width: 100%;
+                        height: 50px;
+                        border-top: 0;
+                        border-left: 0;
+                        border-right: 0;
+                        color: rgba(255, 255, 255, 0.7);
+                        background: transparent;
+                        border-bottom: 2px solid rgba(182, 197, 213, 0.5);
+                    }
+                    textarea::placeholder {
+                        color: rgba(255, 255, 255, 0.7);
+                        font-family: Nunito;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 44px;
+                    }
+                }
+                input.wpcf7-submit {
+                    color: #186E99;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    width: 100%;
+                    line-height: 26px;
+                }
+                @media(max-width: 768px){
+                    margin-top: 30px;
+                }
+            }
+        }  
+        @media(max-width: 768px){
+            padding: 44px 20px;
+        }  
+    }
+}
+.summary_section{
+    padding-top: 48px;
+    .container{
+        .row{
+            .summary-block{
+                border-radius: 15px;
+                background: #F9FAFB;
+                h2{
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px; 
+                    display: flex;
+                    align-items: center;
+                    padding: 20px 0 13px 0;
+                    img {
+                        margin-right: 8px;
+                    }
+                }
+                .description {
+                    border-top: 1px solid #DEE7EF;
+                    padding: 40px 70px 25px 45px;
+                    p {
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                    @media(max-width: 768px){
+                        padding: 40px 20px 25px 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+.consultant_experience_section{
+    padding-top: 48px;
+    .container{
+        .row{
+            .consultant-experience-block{
+                border-radius: 15px;
+                border: 1px solid #DEE7EF;
+                background: transparent;
+                h2{
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px; 
+                    display: flex;
+                    align-items: center;
+                    padding: 20px 0 13px 48px;
+                    img {
+                        margin-right: 8px;
+                    }
+                    @media(max-width: 768px){
+                        padding: 20px 20px 13px 20px;
+                    }
+                }
+                .description {
+                    border-top: 1px solid #DEE7EF;
+                    padding: 40px 70px 25px 45px;
+                    p {
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                    @media(max-width: 768px){
+                        padding: 40px 20px 25px 20px;
+                    }
+                    span.consultant.read-more {
+                        cursor: pointer;
+                        color: #20A8ED;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+.consultant-category-section{
+    padding-top: 24px;
+    .container{
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                color: #FEB931;
+                text-align: center;
+                font-family: Nunito;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 16px;
+                text-transform: uppercase;
+                border-radius: 100px;
+                border: 2px solid #FEB931;
+                box-shadow: 0px 2px 20px 0px rgb(0 0 0 / 10%);
+                padding: 15px 22px 14px 22px;
+                &:hover{
+                    color: #FEB931;
+                }
+            }
+        }
+    }
+}   
+.key-skills-tools-section{
+    padding-top: 48px;
+    .container{
+        .row{
+            .key-skills-tools-block{
+                border-radius: 15px;
+                border: 1px solid #DEE7EF;
+                background: transparent;
+                h2{
+                    color: #2F4155;
+                    font-family: Nunito;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px; 
+                    display: flex;
+                    align-items: center;
+                    padding: 20px 0 13px 0;
+                    img {
+                        margin-right: 8px;
+                    }
+                    @media(max-width: 768px){
+                        flex-direction: column;
+                        line-height: 42px;
+                    }
+                }
+                .description {
+                    border-top: 1px solid #DEE7EF;
+                    padding: 40px 70px 33px 45px;
+                    li {
+                        position: relative;
+                        color: #646E78;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px;
+                        padding-left: 38px;
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 6px;
+                            width: 20px;
+                            height: 20px;
+                            background-position: 0 0;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-list-check.svg);
+                        }
+                    }
+                    @media(max-width: 768px){
+                        padding: 40px 20px 33px 20px;
+                    }
+                    span.consultant.read-more {
+                        color: #20A8ED;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 24px;
+                    }
+                }
+                .consultant.read-more-button {
+                    cursor: pointer;
+                    color: #20A8ED;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                    position: relative;
+                    top: 10px;
+                }
+            }
+        }
+    }
+}
+.schedule-a-call-section{
+    padding-top: 48px;
+    .container{
+        .row{
+            .schedule-a-call-block{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                min-height: 280px;
+                border-radius: 15px;
+                background: transparent url(https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/awards-bg.webp) no-repeat center center/cover;
+                h2{
+                    color: #2F4155;
+                    text-align: center;
+                    font-family: Nunito;
+                    font-size: 44px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 54px
+                     
+                }
+                @media(max-width: 768px){
+                    h2{
+                        font-size: 24px;
+                        line-height: 33px;
+                    }
+                }
+                .button-block{
+                    margin-top: 35px;
+                    a {
+                        border-radius: 100px;
+                        background: #83BB26;
+                        padding: 16px 23px;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Nunito;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 10px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+.description-categories{
+    padding-bottom: 20px;
+    padding-right: 15px;
+     p {
+        line-height: 28px;
+    }
+}

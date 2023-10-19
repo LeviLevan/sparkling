@@ -1,0 +1,664 @@
+.flex {
+  @include flexbox();
+
+}
+
+.page--blog, .page--post {
+  padding-top: 18rem;
+  background: #fff;
+  color: #22303d;
+
+  .blog__title {
+    padding: 0 0 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F4155;
+    margin-bottom: 45px
+  }
+
+  .post__content {
+    font-size: 1.4rem;
+    padding-bottom: 5rem;
+
+    .row.flex{
+      img.img-responsive {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+          margin-bottom: 15px;
+      }
+    }
+
+    &:nth-child(4) {
+      padding-bottom: 3.5rem;
+    }
+
+    .post__img {
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+
+    .post__title {
+      font-size: 2.6rem;
+      font-weight: bold;
+      line-height: 1.4;
+    }
+
+    .post__date {
+      color: #797979;
+      text-transform: uppercase;
+      padding: 1.8rem 0 3rem;
+    }
+
+    .post__descriptions {
+      color: #727272;
+      line-height: 2;
+      padding-bottom: 3.2rem;
+    }
+
+    .post__button {
+      padding: 0.6rem 0;
+
+      .button {
+        padding: 8.5px 30.5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+
+        transition: all 0.5s ease;
+        background: #83BB26;
+        border-radius: 100px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 10px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+
+        &:hover {
+          background: #79B01E;
+          color: #fff;
+        }
+      }
+    }
+
+    ul {
+      padding-left: 20px;
+      list-style-type: disc;
+      margin-bottom: 1rem;
+    }
+
+    ol {
+      padding-left: 20px;
+      list-style-type: decimal;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: #36A0DD;
+
+      &:hover,
+      &:focus {
+        color: #36A0DD;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .blog__pagination {
+    float: right;
+    font-size: 16px;
+    margin-bottom: 2.6rem;
+
+
+    .page-numbers {
+      display: inline-block;
+      text-align: center;
+      padding-top: 5px;
+      color: #22303d;
+      width: 36px;
+      height: 36px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      background-color: rgba(34, 48, 61, 0);
+      border: solid 1px #22303d;
+
+      transition: all 0.5s ease;
+
+      &:hover {
+        background-color: #22303d;
+        color: #fff;
+      }
+
+      &.current {
+        background-color: #22303d;
+        color: #fff;
+      }
+
+      &.next, &.prev {
+        padding-top: 0;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .post__sidebar {
+    .widget-title {
+      padding-bottom: 6px;
+      border-bottom: 1px solid #EAEDEF;
+      margin-bottom: 17px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 30px;
+      color: #2F4155;
+      text-transform: capitalize;
+      display: flex;
+      align-items: center;
+
+      &::before {
+        content: "";
+        display: block;
+        margin-right: 9px;
+        width: 28px;
+        height: 28px;
+        background: transparent url("https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-click.svg") no-repeat 0 0/contain;
+      }
+    }
+
+    .rpwwt-widget {
+      .widget-title {
+        &::before {
+          width: 29px;
+          height: 21px;
+          background: transparent url("https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-history.svg") no-repeat 0 0/contain;
+        }
+      }
+    }
+
+    ul {
+      -webkit-padding-start: 0;
+      padding-left: 0;
+
+      li {
+        list-style-type: none;
+        position: relative;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        color: #4c4c4c;
+        min-height: 6rem;
+        padding-bottom: 3rem;
+        box-sizing: content-box;
+
+        .post-date {
+          font-weight: 400;
+        }
+
+        a {
+          font-weight: 600;
+          color: #4c4c4c;
+
+          &:hover {
+            color: #4c4c4c;
+          }
+        }
+
+        .recent-post__thumbnail {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 6rem;
+          width: 6.7rem;
+        }
+      }
+    }
+  }
+
+  .name, .email, .tel, .country, .file, .needs, .budget, .duration, .message {
+    padding-bottom: 2.5rem;
+
+    input {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    button {
+      border: 0;
+    }
+  }
+
+  .file {
+    .file__notice {
+      font-size: 1rem;
+      color: #394958;
+      padding-top: 8px;
+    }
+  }
+
+  .contact__button {
+    text-align: center;
+    padding-bottom: 7rem;
+  }
+
+  label {
+    display: block;
+    font-size: 1.4rem;
+    color: #54606a;
+    font-weight: 600;
+    margin-bottom: 0;
+
+    .field__required {
+      color: #e34945;
+    }
+  }
+
+  input {
+    width: 100%;
+    color: #22303d;
+    font-size: 1.6rem;
+    border: 0;
+    border-bottom: 2px solid #b2bbc4;
+    padding: 0 0 0.5rem;
+  }
+
+  textarea {
+    width: 100%;
+    color: #22303d;
+    font-size: 1.6rem;
+    border: 0;
+    border-bottom: 2px solid #b2bbc4;
+    resize: none;
+    padding: 0 0 0.5rem;
+  }
+
+  button {
+    width: 165px;
+    background: #fff;
+    color: #22303d;
+  }
+
+  span.wpcf7-not-valid-tip {
+    position: absolute;
+    font-size: 1.2rem;
+  }
+
+  div.wpcf7-validation-errors {
+    display: none !important;
+  }
+
+  div.wpcf7-mail-sent-ok {
+    position: absolute;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+    border: 1px solid #22303d;
+    left: 7%;
+    margin-left: 0;
+    width: 86%;
+  }
+
+  .bootstrap-select {
+    width: 100%;
+    border-bottom: 2px solid #b2bbc4;
+
+    .btn.dropdown-toggle {
+      font-family: 'WorkSans';
+      font-size: 1.6rem;
+      color: #a5aaaf;
+      padding: 0;
+      padding-bottom: 1px;
+      padding-right: 25px;
+
+      &:hover {
+        color: #a5aaaf;
+        background: #fff;
+      }
+
+      &:focus {
+        outline: none !important;
+      }
+    }
+
+    .dropdown-menu {
+      padding: 0;
+
+      li {
+        border-bottom: 1px solid #eeeeee;
+        padding-left: 0;
+        line-height: 1.7;
+        min-height: 0;
+        padding-bottom: 0;
+        box-sizing: border-box;
+
+        &:hover {
+          background: #f8f8f8;
+        }
+
+        a {
+          font-size: 1.4rem;
+          color: #22303d;
+          width: 100%;
+          padding: 10px 20px;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.post__img_main img{
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.page--post {
+  article {
+    margin-bottom: 54px;
+  }
+
+  .row.flex {
+    padding: 0 15px;
+  }
+
+  .post__title {
+    margin-top: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F4155;
+  }
+
+  .post__date {
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 44px;
+    color: #36A0DD;
+  }
+
+  .post__content {
+    font-size: 1.4rem;
+    color: #727272;
+    line-height: 2;
+    margin-top: 3.8rem;
+    padding-bottom: 3.6rem;
+
+    h3,
+    .h3 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 30px;
+      color: #2F4155;
+      margin: 30px 0 10px;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #646E78;
+    }
+
+    ul {
+
+    }
+
+    li {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #646E78;
+    }
+  }
+
+  .post__button {
+    margin-bottom: 3.6rem;
+
+    .button {
+      font-size: 1.2rem;
+      color: $main-color;
+      padding: 8.5px 33.5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      border: solid 1px $main-color;
+
+      &:hover {
+        background: $main-color;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.rpwwt-widget {
+  margin-bottom: 50px;
+
+  ul {
+    li {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-left: 85px;
+      position: relative;
+
+      a {
+        img {
+          border-radius: 5px;
+          margin: 0 15px 0 0;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+.rpwwt-post-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2F4155;
+}
+
+.rpwwt-post-date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 12px;
+  color: #646E78;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.post__sidebar {
+  .form-wrapper {
+    div[class*="col-"] {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .col-md-6 {
+      width: 100%;
+    }
+
+    .needs-radio {
+      display: block;
+    }
+
+    label {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 1;
+      color: #2F4155;
+      margin-bottom: -7px;
+    }
+
+    input,
+    textarea {
+      border-color: #B6C5D5;
+      color: #000;
+
+      &::-webkit-input-placeholder {
+        color: rgba(#646E78, 1);
+      }
+
+      &::-moz-placeholder {
+        color: rgba(#646E78, 1);
+      }
+
+      /*	Firefox	19+	*/
+      &:-moz-placeholder {
+        color: rgba(#646E78, 1);
+      }
+
+      /*	Firefox	18-	*/
+      &:-ms-input-placeholder {
+        color: rgba(#646E78, 1);
+      }
+
+      &:-ms-input-placeholder {
+        color: rgba(#646E78, 1);
+      }
+
+      &::-ms-input-placeholder {
+        color: rgba(#646E78, 1);
+      }
+    }
+
+    .wpcf7-not-valid {
+      border-color: #F37E3C;
+    }
+
+    .name, .email, .tel, .country, .file, .needs, .budget, .duration, .message {
+      padding-bottom: 2.5rem;
+    }
+
+    .custom_file {
+      margin: 0;
+      border: 2px solid #B6C5D5;
+      background-color: #fff;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 44px;
+      color: #646E78;
+
+      .icon__attach {
+        background: transparent url("https://www.hiredynamicsdevelopers.com/wp-content/themes/sparkling/inc/assets/icons/ico-attach-black.svg") no-repeat 0 0/contain;
+      }
+
+      > input {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 44px;
+        color: #646E78;
+      }
+
+      #file__upload {
+        &::-webkit-input-placeholder {
+          color: rgba(#646E78, 1);
+        }
+
+        &::-moz-placeholder {
+          color: rgba(#646E78, 1);
+        }
+
+        /*	Firefox	19+	*/
+        &:-moz-placeholder {
+          color: rgba(#646E78, 1);
+        }
+
+        /*	Firefox	18-	*/
+        &:-ms-input-placeholder {
+          color: rgba(#646E78, 1);
+        }
+
+        &:-ms-input-placeholder {
+          color: rgba(#646E78, 1);
+        }
+
+        &::-ms-input-placeholder {
+          color: rgba(#646E78, 1);
+        }
+      }
+    }
+
+    .file {
+      flex-direction: column;
+
+      .file__notice {
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #87929C;
+      }
+    }
+
+    .file__delete {
+      color: #646E78;
+    }
+
+    .needs {
+      > label {
+        margin-bottom: 11px;
+      }
+    }
+
+    .needs-radio {
+      .wpcf7-list-item {
+        margin: 0;
+        width: 100%;
+
+        label {
+
+        }
+
+        input {
+
+        }
+
+        .wpcf7-list-item-label {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px;
+          color: #646E78;
+          padding: 8px 60px;
+        }
+      }
+    }
+
+    .contact__button {
+      button {
+        &[type="submit"] {
+          background: #186C97;
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+          color: #fff;
+
+          &:hover,
+          &:focus {
+            color: #83BB26;
+          }
+        }
+      }
+    }
+  }
+}

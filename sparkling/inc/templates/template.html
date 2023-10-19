@@ -1,0 +1,57 @@
+<div class="title-cont" ng-if="!$ctrl.showShort" >
+    <label for="title">Title</label>
+    <input id="title" type="text" ng-model="$ctrl.title" placeholder="Title" ng-change="$ctrl.setTitle()">
+</div>
+
+<div class="title-cont" ng-if="$ctrl.showShort" ng-click="$ctrl.showShort = false">
+    <label for="title">Title</label>
+    <p class="short-title">{{$ctrl.shortTitle}}</p>
+</div>
+<div ng-click="$ctrl.changeTitle()">
+    <div class="description-cont">
+        <label for="description">Description</label>
+        <textarea id="description" rows="3" ng-model="$ctrl.description" placeholder="Description"
+                  ng-change="$ctrl.setDescription()"></textarea>
+    </div>
+
+    <div class="todo-list">
+        <ul ng-if="$ctrl.list.length || $ctrl.showNew">
+            <li ng-repeat="task in $ctrl.list  track by $index" ng-class="{'done': task.status}">
+                <input class="ps-checkbox" type="checkbox" id="item-{{ task.id }}" ng-checked="task.status"
+                       ng-disabled="task.status">
+                <label ng-click="$ctrl.updateTask(task.id)">
+                </label>
+                <div class="text" ng-click="$ctrl.updateTask(task.id)">
+                    {{ task.title }}
+                </div>
+                <button class="del-item" ng-click="$ctrl.deleteTask(task)">
+                    <i class="icon-cross"></i>
+                </button>
+            </li>
+
+            <li ng-if="$ctrl.showNew">
+                <form ng-submit="$ctrl.addTask()">
+                    <input class="ps-checkbox" ng-model="$ctrl.newStatus" value="1" type="checkbox" id="item-new"
+                           disabled>
+                    <label for="item-new">
+                    </label>
+                    <div class="text no-padding-right">
+                        <div class="create-cont">
+                            <input type="text" ng-model="$ctrl.newTask" ng-class="{'empty': !$ctrl.newTask}">
+                            <button ng-if="$ctrl.newTask" type="submit">
+                                <i class="icon-checkmark"></i>
+                            </button>
+                            <button type="button" ng-if="!$ctrl.newTask" ng-click="$ctrl.showNew = !$ctrl.showNew">
+                                <i class="icon-cross"></i>
+                            </button>
+
+                        </div>
+                    </div>
+                </form>
+            </li>
+        </ul>
+        <button class="add-new" ng-click="$ctrl.showNew = !$ctrl.showNew" ng-if="!$ctrl.showNew">
+            <i class="icon-plus"></i> Add new task
+        </button>
+    </div>
+</div>

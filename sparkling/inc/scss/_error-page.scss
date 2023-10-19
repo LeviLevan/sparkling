@@ -1,0 +1,395 @@
+.error404 {
+  height: 100vh;
+  background: #fff;
+
+  @include flexbox();
+  @include flex-direction(row);
+  @include justify-content(center);
+  @include align-items(center);
+
+  &.logged-in {
+    height: calc(100vh - 32px);
+    header {
+      top: 32px;
+    }
+  }
+  header {
+    top: 0;
+    .header__mail {
+      padding-top: 23px;
+    }
+  }
+  .page--404 {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 300;
+
+    h1 {
+      font-size: 2.8rem;
+      color: #fb503b;
+      font-weight: 700;
+    }
+  }
+  .footer--404 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100vh;
+  }
+}
+
+@media (max-width: 1367px) and (min-width: 992px){
+  .error404 {
+    header {
+      .row__logo {
+        display: block;
+        padding: 0rem 0;
+        .header__logo--container {
+          margin: 4px 0;
+        }
+      }
+      .header__mail {
+        padding-top: 17px;
+        margin: 16px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .error404 {
+    header {
+      .row__logo {
+        .header__logo--container {
+          margin: 8px 0;
+        }
+      }
+
+      .header__mail {
+        padding-top: 11px;
+        padding-bottom: 11px;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .error404 {
+    header {
+      .header__mail {
+        margin: 16px 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .error404.logged-in {
+    height: calc(90vh - 46px);
+  }
+}
+
+@media (max-width: 767px) {
+  .error404 {
+    #wpadminbar {
+      display: block;
+    }
+    header {
+      .header__logo--container {
+        left: auto;
+        text-align: center;
+        display: block;
+      }
+      .header__mail {
+        padding-top: 0px;
+        margin: 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 543px) {
+  .error404 {
+    header {
+      .row__logo {
+        text-align: center;
+        .header__logo--container {
+          left: 0;
+          margin-left: 0;
+          position: relative;
+        }
+      }
+    }
+  }
+}
+
+
+/*@media (max-height: 568px) and (max-width: 320px) {
+
+  .error404 {
+    height: auto;
+    background: #fff;
+    display: block;
+
+    &.logged-in {
+      height: auto;
+      header {
+        top: 0px;
+      }
+    }
+
+    header {
+      position: relative;
+    }
+    .page--404 {
+      padding: 7rem 0;
+    }
+    footer {
+      &.footer--404 {
+        position: relative;
+      }
+    }
+
+  }
+}*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  .error404 {
+    height: auto;
+    background: #fff;
+    display: block;
+
+    &.logged-in {
+      height: auto;
+      header {
+        top: 0px;
+      }
+    }
+
+    header {
+      position: relative;
+    }
+    .page--404 {
+      padding: 14.2rem 0;
+    }
+    footer {
+      &.footer--404 {
+        position: relative;
+      }
+    }
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  .error404 {
+    height: auto;
+    background: #fff;
+    display: block;
+
+    &.logged-in {
+      height: auto;
+      header {
+        top: 0px;
+      }
+    }
+
+    header {
+      position: relative;
+    }
+    .page--404 {
+      padding: 6rem 0;
+    }
+    footer {
+      &.footer--404 {
+        position: relative;
+      }
+    }
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .error404 {
+    height: auto;
+    background: #fff;
+    display: block;
+
+    &.logged-in {
+      height: auto;
+      header {
+        top: 0px;
+      }
+    }
+
+    header {
+      position: relative;
+    }
+    .page--404 {
+      padding: 20rem 0;
+    }
+    footer {
+      &.footer--404 {
+        position: relative;
+      }
+    }
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  .error404 {
+    height: auto;
+    background: #fff;
+    display: block;
+
+    &.logged-in {
+      height: auto;
+      header {
+        top: 0px;
+      }
+    }
+
+    header {
+      position: relative;
+    }
+    .page--404 {
+      padding: 32rem 0;
+    }
+    footer {
+      &.footer--404 {
+        position: relative;
+      }
+    }
+  }
+}
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+  .error404 {
+    height: auto;
+    background: #fff;
+    display: block;
+
+    &.logged-in {
+      height: auto;
+      header {
+        top: 0px;
+      }
+    }
+
+    header {
+      position: relative;
+    }
+    .page--404 {
+      padding: 32rem 0;
+    }
+    footer {
+      &.footer--404 {
+        position: relative;
+      }
+    }
+  }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+  .error404 {
+    height: auto;
+    background: #fff;
+    display: block;
+
+    &.logged-in {
+      height: auto;
+      header {
+        top: 0px;
+      }
+    }
+
+    header {
+      position: relative;
+    }
+    .page--404 {
+      padding: 19rem 0;
+    }
+    footer {
+      &.footer--404 {
+        position: absolute
+      }
+    }
+  }
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape){
+  .error404 {
+    height: auto;
+    background: #fff;
+    display: block;
+
+    &.logged-in {
+      height: auto;
+      header {
+        top: 0px;
+      }
+    }
+
+    header {
+      position: relative;
+    }
+    .page--404 {
+      padding: 10rem 0;
+    }
+    footer {
+      &.footer--404 {
+        position: relative;
+      }
+    }
+  }
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
+  .error404 {
+    height: auto;
+    background: #fff;
+    display: block;
+
+    &.logged-in {
+      height: auto;
+      header {
+        top: 0px;
+      }
+    }
+
+    header {
+      position: relative;
+    }
+    .page--404 {
+      padding: 30.5rem 0;
+    }
+    footer {
+      &.footer--404 {
+        position: relative;
+      }
+    }
+  }
+}
